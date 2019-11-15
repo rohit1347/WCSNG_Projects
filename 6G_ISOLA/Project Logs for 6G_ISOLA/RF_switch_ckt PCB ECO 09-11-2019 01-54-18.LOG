@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=RF2 Pin=C2-2
+Removed Pin From Net: NetName=RF3 Pin=C3-2
+Removed Pin From Net: NetName=RF4 Pin=C4-1
+Removed Pin From Net: NetName=RFC Pin=C5-2
+Removed Member From Class: ClassName=RF_switch_ckt Member=C2
+Removed Member From Class: ClassName=RF_switch_ckt Member=C3
+Removed Member From Class: ClassName=RF_switch_ckt Member=C5
+Change Component Designator: OldDesignator= NewDesignator=U1
+Added Pin To Net: NetName=RFC Pin=U1-2
+Added Pin To Net: NetName=RF4 Pin=U1-5
+Added Pin To Net: NetName=RF3 Pin=U1-7
+Added Pin To Net: NetName=RF2 Pin=U1-12
+Added Room: Name=RF_switch_ckt

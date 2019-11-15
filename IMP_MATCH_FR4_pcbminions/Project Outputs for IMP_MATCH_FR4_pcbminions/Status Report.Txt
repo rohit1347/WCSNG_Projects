@@ -1,0 +1,23 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of PCB Document [imp_match_v1_1.PcbDoc]
+   Generated File[imp_match_v1_1.GTO]
+   Generated File[imp_match_v1_1.GTP]
+   Generated File[imp_match_v1_1.GTS]
+   Generated File[imp_match_v1_1.GTL]
+   Generated File[imp_match_v1_1.G1]
+   Generated File[imp_match_v1_1.G2]
+   Generated File[imp_match_v1_1.GBL]
+   Generated File[imp_match_v1_1.GBS]
+   Generated File[imp_match_v1_1.GBP]
+   Generated File[imp_match_v1_1.GBO]
+   Generated File[imp_match_v1_1.GM1]
+   Generated File[imp_match_v1_1.RUL]
+   Generated File[imp_match_v1_1.EXTREP]
+   Generated File[imp_match_v1_1.REP]
+
+
+Files Generated   : 14
+Documents Printed : 0
+
+Finished Output Generation At 00:22:38 On 21-09-2019

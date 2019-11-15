@@ -1,0 +1,28 @@
+PCAD Importer Log
+Project : LM2599T-ADJ.LibPkg
+
+Section : C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\FDR_LPWAN_PCBs\Scratch\LM2599T-ADJ.lia
+    Section : PCB Library - LM2599T-ADJ.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token LM2599T-ADJ On Line 129
+            Warning - 1 : Skipping Token attachedSymbol On Line 226
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - LM2599T-ADJ.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token padStyleDef On Line 21
+            Warning - 1 : Skipping Token multiLayer On Line 96
+            Warning - 1 : Skipping Token layerContents On Line 105
+            Warning - 1 : Skipping Token layerContents On Line 113
+            Warning - 1 : Skipping Token layerContents On Line 121
+        EndSection
+
+        Section : Generating SCH Library - LM2599T-ADJ.SchLib
+        EndSection
+    EndSection
+EndSection

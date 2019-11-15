@@ -1,0 +1,33 @@
+PCAD Importer Log
+Project : ISL8206MIRZ.LibPkg
+
+Section : C:\Users\rohit\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\FDR_LPWAN_PCBs\PCB_wksp\ISL8206MIRZ.lia
+    Section : PCB Library - ISL8206MIRZ.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token ISL8206MIRZ On Line 516
+            Warning - 1 : Skipping Token attachedSymbol On Line 663
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - ISL8206MIRZ.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token padStyleDef On Line 21
+            Warning - 1 : Skipping Token padStyleDef On Line 33
+            Warning - 1 : Skipping Token multiLayer On Line 108
+            Warning - 1 : Skipping Token layerContents On Line 125
+            Warning - 1 : Skipping Token layerContents On Line 159
+            Warning - 1 : Skipping Token layerContents On Line 167
+            Warning - 1 : Skipping Token layerContents On Line 175
+            Warning - 1 : Skipping Token layerContents On Line 201
+            Warning - 1 : Skipping Token layerContents On Line 206
+            Warning - 1 : Skipping Token layerContents On Line 508
+        EndSection
+
+        Section : Generating SCH Library - ISL8206MIRZ.SchLib
+        EndSection
+    EndSection
+EndSection

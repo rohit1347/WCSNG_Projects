@@ -1,0 +1,65 @@
+Added Component: Designator=J15(SMA-OSHPARK-4L-1.6MM- ALT3)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DeviceName"; Value = "-OSHPARK-4L-1.6MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "SMA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "dword1511-connectors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SMA-OSHPARK-4L-1.6MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "J658-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "COAX"; VariantName = "[No Variations]"
+Added Component: Designator=J16(SMA-OSHPARK-4L-1.6MM- ALT3)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DeviceName"; Value = "-OSHPARK-4L-1.6MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "SMA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "dword1511-connectors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SMA-OSHPARK-4L-1.6MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "J658-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "COAX"; VariantName = "[No Variations]"
+Added Component: Designator=J17(SMA-OSHPARK-4L-1.6MM- ALT3)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DeviceName"; Value = "-OSHPARK-4L-1.6MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "SMA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "dword1511-connectors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SMA-OSHPARK-4L-1.6MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "J658-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "COAX"; VariantName = "[No Variations]"
+Added Component: Designator=J18(SMA-OSHPARK-4L-1.6MM- ALT3)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DeviceName"; Value = "-OSHPARK-4L-1.6MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "SMA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "dword1511-connectors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SMA-OSHPARK-4L-1.6MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "J658-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "COAX"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND1 Pin=J15-GND
+Added Pin To Net: NetName=GND1 Pin=J15-GND
+Added Pin To Net: NetName=GND1 Pin=J15-GND
+Added Pin To Net: NetName=GND1 Pin=J15-GND
+Added Pin To Net: NetName=RF1 Pin=J15-SIG
+Added Pin To Net: NetName=GND1 Pin=J16-GND
+Added Pin To Net: NetName=GND1 Pin=J16-GND
+Added Pin To Net: NetName=GND1 Pin=J16-GND
+Added Pin To Net: NetName=GND1 Pin=J16-GND
+Added Pin To Net: NetName=RF1 Pin=J16-SIG
+Added Pin To Net: NetName=GND1 Pin=J17-GND
+Added Pin To Net: NetName=GND1 Pin=J17-GND
+Added Pin To Net: NetName=GND1 Pin=J17-GND
+Added Pin To Net: NetName=GND1 Pin=J17-GND
+Added Pin To Net: NetName=RF2 Pin=J17-SIG
+Added Pin To Net: NetName=GND1 Pin=J18-GND
+Added Pin To Net: NetName=GND1 Pin=J18-GND
+Added Pin To Net: NetName=GND1 Pin=J18-GND
+Added Pin To Net: NetName=GND1 Pin=J18-GND
+Added Pin To Net: NetName=RF2 Pin=J18-SIG
+Added Member To Class: ClassName=imp_match_v1_1 Member=Component J15 SMA 50 Ohm edge
+Added Member To Class: ClassName=imp_match_v1_1 Member=Component J16 SMA 50 Ohm edge
+Added Member To Class: ClassName=imp_match_v1_1 Member=Component J17 SMA 50 Ohm edge
+Added Member To Class: ClassName=imp_match_v1_1 Member=Component J18 SMA 50 Ohm edge
+Added Rule: Name=Schematic Width Constraint_8

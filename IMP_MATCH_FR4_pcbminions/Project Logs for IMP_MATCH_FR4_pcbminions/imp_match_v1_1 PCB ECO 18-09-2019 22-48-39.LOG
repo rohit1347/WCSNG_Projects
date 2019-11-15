@@ -1,0 +1,59 @@
+Added Component: Designator=J1(SMA-OSHPARK-4L-1.6MM)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DeviceName"; Value = "-OSHPARK-4L-1.6MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "SMA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "dword1511-connectors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SMA-OSHPARK-4L-1.6MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "COAX"; VariantName = "[No Variations]"
+Added Component: Designator=J2(SMA-OSHPARK-4L-1.6MM)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DeviceName"; Value = "-OSHPARK-4L-1.6MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "SMA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "dword1511-connectors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SMA-OSHPARK-4L-1.6MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "COAX"; VariantName = "[No Variations]"
+Added Component: Designator=J3(SMA-OSHPARK-4L-1.6MM)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DeviceName"; Value = "-OSHPARK-4L-1.6MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "SMA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "dword1511-connectors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SMA-OSHPARK-4L-1.6MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "COAX"; VariantName = "[No Variations]"
+Added Component: Designator=J4(SMA-OSHPARK-4L-1.6MM)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DeviceName"; Value = "-OSHPARK-4L-1.6MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "SMA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "dword1511-connectors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SMA-OSHPARK-4L-1.6MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "COAX"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=J1-GND
+Added Pin To Net: NetName=GND Pin=J1-GND
+Added Pin To Net: NetName=GND Pin=J1-GND
+Added Pin To Net: NetName=GND Pin=J1-GND
+Added Pin To Net: NetName=RF1 Pin=J1-SIG
+Added Pin To Net: NetName=GND Pin=J2-GND
+Added Pin To Net: NetName=GND Pin=J2-GND
+Added Pin To Net: NetName=GND Pin=J2-GND
+Added Pin To Net: NetName=GND Pin=J2-GND
+Added Pin To Net: NetName=RF1 Pin=J2-SIG
+Added Pin To Net: NetName=GND Pin=J3-GND
+Added Pin To Net: NetName=GND Pin=J3-GND
+Added Pin To Net: NetName=GND Pin=J3-GND
+Added Pin To Net: NetName=GND Pin=J3-GND
+Added Pin To Net: NetName=RF2 Pin=J3-SIG
+Added Pin To Net: NetName=GND Pin=J4-GND
+Added Pin To Net: NetName=GND Pin=J4-GND
+Added Pin To Net: NetName=GND Pin=J4-GND
+Added Pin To Net: NetName=GND Pin=J4-GND
+Added Pin To Net: NetName=RF2 Pin=J4-SIG
+Added Member To Class: ClassName=imp_match_v1 Member=Component J1 SMA 50 Ohm edge
+Added Member To Class: ClassName=imp_match_v1 Member=Component J2 SMA 50 Ohm edge
+Added Member To Class: ClassName=imp_match_v1 Member=Component J3 SMA 50 Ohm edge
+Added Member To Class: ClassName=imp_match_v1 Member=Component J4 SMA 50 Ohm edge
+Added Room: Name=imp_match_v1
+Added Room: Name=imp_match_v1_1
+Added Rule: Name=Schematic Width Constraint_5
