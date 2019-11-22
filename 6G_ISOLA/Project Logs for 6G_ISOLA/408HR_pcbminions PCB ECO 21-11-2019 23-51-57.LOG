@@ -1,0 +1,38 @@
+Removed Pin From Net: NetName=GND Pin=J1-GND
+Removed Pin From Net: NetName=GND Pin=J1-GND
+Removed Pin From Net: NetName=GND Pin=J1-GND
+Removed Pin From Net: NetName=GND Pin=J1-GND
+Removed Pin From Net: NetName=RFC Pin=J1-SIG
+Removed Pin From Net: NetName=GND Pin=J?-GND
+Removed Pin From Net: NetName=GND Pin=J?-GND
+Removed Pin From Net: NetName=GND Pin=J?-GND
+Removed Pin From Net: NetName=GND Pin=J?-GND
+Removed Pin From Net: NetName=GND Pin=J?-GND
+Removed Pin From Net: NetName=GND Pin=J?-GND
+Removed Pin From Net: NetName=GND Pin=J?-GND
+Removed Pin From Net: NetName=GND Pin=J?-GND
+Removed Pin From Net: NetName=GND Pin=P1-1
+Removed Pin From Net: NetName=GND Pin=P1-2
+Removed Pin From Net: NetName=3V3 Pin=P1-3
+Removed Pin From Net: NetName=3V3 Pin=P1-4
+Removed Member From Class: ClassName=408HR_pcbminions Member=J?
+Removed Member From Class: ClassName=408HR_pcbminions Member=P1
+Change Component Designator: OldDesignator=J? NewDesignator=J1
+Change Component Designator: OldDesignator=J? NewDesignator=J13
+Added Component: Designator=J12(SMA-OSHPARK-4L-1.6MM- ALT3)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DeviceName"; Value = "-OSHPARK-4L-1.6MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "SMA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "dword1511-connectors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SMA-OSHPARK-4L-1.6MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "J658-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "COAX"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=Sig2 Pin=J12-SIG
+Added Net: Name=Sig2
+Change Class Name : Old Net Name=U_RF_switch_ckt New Net Name=RF_switch_ckt
+Added Member To Class: ClassName=408HR_pcbminions Member=Component J12 SMA 50 Ohm edge
+Added Member To Class: ClassName=408HR_pcbminions Member=Component J13 SMA 50 Ohm edge
+Change Room Name: Old Name=U_RF_switch_ckt New Name=RF_switch_ckt
+Change Room Scope: Old Scope=InComponentClass('U_RF_switch_ckt') New Scope=InComponentClass('RF_switch_ckt')

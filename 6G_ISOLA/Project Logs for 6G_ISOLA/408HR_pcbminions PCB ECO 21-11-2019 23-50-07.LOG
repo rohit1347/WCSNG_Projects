@@ -1,0 +1,37 @@
+Added Component: Designator=J?(SMA-OSHPARK-4L-1.6MM- ALT3)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DeviceName"; Value = "-OSHPARK-4L-1.6MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "SMA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "dword1511-connectors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SMA-OSHPARK-4L-1.6MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "J658-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "COAX"; VariantName = "[No Variations]"
+Added Component: Designator=J?(SMA-OSHPARK-4L-1.6MM- ALT3)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DeviceName"; Value = "-OSHPARK-4L-1.6MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "SMA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "dword1511-connectors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SMA-OSHPARK-4L-1.6MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "J658-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "COAX"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=J?-GND
+Added Pin To Net: NetName=GND Pin=J?-GND
+Added Pin To Net: NetName=GND Pin=J?-GND
+Added Pin To Net: NetName=GND Pin=J?-GND
+Added Pin To Net: NetName=GND Pin=J?-GND
+Added Pin To Net: NetName=GND Pin=J?-GND
+Added Pin To Net: NetName=GND Pin=J?-GND
+Added Pin To Net: NetName=GND Pin=J?-GND
+Added Pin To Net: NetName=Sig1 Pin=J?-SIG
+Added Net: Name=Sig1
+Added Pin To Net: NetName=Sig3 Pin=J?-SIG
+Added Net: Name=Sig3
+Added Member To Class: ClassName=408HR_pcbminions Member=Component J? SMA 50 Ohm edge
+Added Member To Class: ClassName=408HR_pcbminions Member=Component J? SMA 50 Ohm edge
+Added Rule: Name=Schematic Impedance Constraint_4
+Added Rule: Name=Schematic Width Constraint_9
+Added Rule: Name=Schematic Width Constraint_11
