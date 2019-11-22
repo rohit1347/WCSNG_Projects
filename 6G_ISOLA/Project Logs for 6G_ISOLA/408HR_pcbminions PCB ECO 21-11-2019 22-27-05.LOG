@@ -1,0 +1,11 @@
+Added Pin To Net: NetName=GND_SHARP Pin=J5-GND
+Added Pin To Net: NetName=GND_SHARP Pin=J5-GND
+Added Pin To Net: NetName=GND_SHARP Pin=J5-GND
+Added Pin To Net: NetName=GND_SHARP Pin=J5-GND
+Added Pin To Net: NetName=GND_SHARP Pin=J10-GND
+Added Pin To Net: NetName=GND_SHARP Pin=J10-GND
+Added Pin To Net: NetName=GND_SHARP Pin=J10-GND
+Added Pin To Net: NetName=GND_SHARP Pin=J10-GND
+Change Net Name : Old Net Name=GND_SHARP New Net Name=GND_TRAN
+Added Rule: Name=Schematic Impedance Constraint
+Added Rule: Name=Schematic Width Constraint_3

@@ -1,0 +1,4 @@
+Added Member To Class: ClassName=408HR_pcbminions Member=Component J2 SMA 50 Ohm edge
+Added Room: Name=408HR_pcbminions
+Added Rule: Name=Schematic Impedance Constraint_4
+Added Rule: Name=Schematic Width Constraint_9
