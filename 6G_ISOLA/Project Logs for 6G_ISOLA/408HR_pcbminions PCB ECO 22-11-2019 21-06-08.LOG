@@ -1,0 +1,53 @@
+Change Component Footprint: Designator=C6 Old Footprint=0402 New Footprint=C1206
+Change Component Footprint: Designator=C7 Old Footprint=0402 New Footprint=C1206
+Change Component Footprint: Designator=C8 Old Footprint=0402 New Footprint=C1206
+Change Component Footprint: Designator=C9 Old Footprint=0402 New Footprint=C1206
+Added Component: Designator=J14(SMA-OSHPARK-4L-1.6MM- ALT3)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DeviceName"; Value = "-OSHPARK-4L-1.6MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "SMA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "dword1511-connectors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SMA-OSHPARK-4L-1.6MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "J658-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "COAX"; VariantName = "[No Variations]"
+Added Component: Designator=P1(HDR2X4)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C6-1
+Added Pin To Net: NetName=GND Pin=C7-1
+Added Pin To Net: NetName=GND Pin=J14-GND
+Added Pin To Net: NetName=GND Pin=J14-GND
+Added Pin To Net: NetName=GND Pin=J14-GND
+Added Pin To Net: NetName=GND Pin=J14-GND
+Added Pin To Net: NetName=RFC Pin=J14-SIG
+Added Pin To Net: NetName=3V3 Pin=P1-1
+Added Pin To Net: NetName=GND Pin=P1-2
+Added Pin To Net: NetName=3V3 Pin=P1-3
+Added Pin To Net: NetName=3V3 Pin=P1-4
+Added Pin To Net: NetName=GND Pin=P1-7
+Added Pin To Net: NetName=GND Pin=P1-8
+Added Pin To Net: NetName=GND Pin=U1-1
+Added Pin To Net: NetName=GND Pin=U1-3
+Added Pin To Net: NetName=GND Pin=U1-4
+Added Pin To Net: NetName=GND Pin=U1-6
+Added Pin To Net: NetName=GND Pin=U1-11
+Added Pin To Net: NetName=GND Pin=U1-13
+Added Pin To Net: NetName=A Pin=P1-5
+Added Net: Name=A
+Added Pin To Net: NetName=B Pin=P1-6
+Added Net: Name=B
+Added Member To Class: ClassName=408HR_pcbminions Member=Component J14 SMA 50 Ohm edge
+Added Member To Class: ClassName=408HR_pcbminions Member=Component J14 SMA 50 Ohm edge
+Added Member To Class: ClassName=408HR_pcbminions Member=Component P1 Header 4X2
+Change Room Name: Old Name=RF_switch_ckt New Name=U_RF_switch_ckt
+Change Room Scope: Old Scope=InComponentClass('RF_switch_ckt') New Scope=InComponentClass('U_RF_switch_ckt')
+Added Room: Name=408HR_pcbminions
+Added Rule: Name=Schematic Width Constraint_9
+Added Rule: Name=Schematic Width Constraint_12
+Added Rule: Name=Schematic Width Constraint_13
+Added Rule: Name=Schematic Width Constraint_14
+Added Rule: Name=Schematic Width Constraint_15

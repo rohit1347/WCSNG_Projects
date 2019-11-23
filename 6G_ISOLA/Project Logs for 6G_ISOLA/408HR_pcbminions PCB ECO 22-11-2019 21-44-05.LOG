@@ -1,0 +1,9 @@
+Change Component Footprint: Designator=C6 Old Footprint=C1206 New Footprint=0402
+Change Component Footprint: Designator=C7 Old Footprint=C1206 New Footprint=0402
+Change Component Footprint: Designator=C8 Old Footprint=C1206 New Footprint=0402
+Change Component Footprint: Designator=C9 Old Footprint=C1206 New Footprint=0402
+Added Rule: Name=Schematic Width Constraint_3
+Added Rule: Name=Schematic Width Constraint_11
+Added Rule: Name=Schematic Width Constraint_16
+Added Rule: Name=Schematic Width Constraint_17
+Added Rule: Name=Schematic Width Constraint_18

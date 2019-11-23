@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=3V3 Pin=P1-3
+Removed Pin From Net: NetName=3V3 Pin=P1-4
+Removed Pin From Net: NetName=GND Pin=P1-7
+Removed Pin From Net: NetName=GND Pin=P1-8
+Change Component Footprint: Designator=P1 Old Footprint=HDR2X4 New Footprint=HDR1X2H
+Change Component Comment : Designator=P1 Old Comment=Header 4X2 New Comment=Header 2H
+Change Component Designator: OldDesignator=J14 NewDesignator=J16
+Added Member To Class: ClassName=408HR_pcbminions Member=Component J16 SMA 50 Ohm edge
+Added Rule: Name=Schematic Width Constraint_9
+Added Rule: Name=Schematic Width Constraint_12
+Added Rule: Name=Schematic Width Constraint_13
+Added Rule: Name=Schematic Width Constraint_14
+Added Rule: Name=Schematic Width Constraint_15

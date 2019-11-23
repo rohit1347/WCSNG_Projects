@@ -1,0 +1,35 @@
+Added Component: Designator=J14(SMA-OSHPARK-4L-1.6MM- ALT3)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DeviceName"; Value = "-OSHPARK-4L-1.6MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "SMA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "dword1511-connectors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SMA-OSHPARK-4L-1.6MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "J658-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "COAX"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C6-1
+Added Pin To Net: NetName=GND Pin=C7-1
+Added Pin To Net: NetName=GND Pin=J14-GND
+Added Pin To Net: NetName=GND Pin=J14-GND
+Added Pin To Net: NetName=GND Pin=J14-GND
+Added Pin To Net: NetName=GND Pin=J14-GND
+Added Pin To Net: NetName=RFC Pin=J14-SIG
+Added Pin To Net: NetName=GND Pin=U1-1
+Added Pin To Net: NetName=GND Pin=U1-3
+Added Pin To Net: NetName=GND Pin=U1-4
+Added Pin To Net: NetName=GND Pin=U1-6
+Added Pin To Net: NetName=GND Pin=U1-11
+Added Pin To Net: NetName=GND Pin=U1-13
+Change Class Name : Old Net Name=RF_switch_ckt New Net Name=U_RF_switch_ckt
+Added Member To Class: ClassName=408HR_pcbminions Member=Component J14 SMA 50 Ohm edge
+Change Room Name: Old Name=RF_switch_ckt New Name=U_RF_switch_ckt
+Change Room Scope: Old Scope=InComponentClass('RF_switch_ckt') New Scope=InComponentClass('U_RF_switch_ckt')
+Added Room: Name=408HR_pcbminions
+Added Rule: Name=Schematic Clearance Constraint_10
+Added Rule: Name=Schematic Width Constraint_9
+Added Rule: Name=Schematic Width Constraint_12
+Added Rule: Name=Schematic Width Constraint_13
+Added Rule: Name=Schematic Width Constraint_14
+Added Rule: Name=Schematic Width Constraint_15
+Added Rule: Name=Schematic Width Constraint_19

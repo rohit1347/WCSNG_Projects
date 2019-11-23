@@ -1,0 +1,11 @@
+Change Component Footprint: Designator=C6 Old Footprint=0402 New Footprint=C1206
+Change Component Footprint: Designator=C7 Old Footprint=0402 New Footprint=C1206
+Change Component Footprint: Designator=C8 Old Footprint=0402 New Footprint=C1206
+Change Component Footprint: Designator=C9 Old Footprint=0402 New Footprint=C1206
+Added Room: Name=408HR_pcbminions
+Added Room: Name=U_RF_switch_ckt
+Added Rule: Name=Schematic Width Constraint_9
+Added Rule: Name=Schematic Width Constraint_12
+Added Rule: Name=Schematic Width Constraint_13
+Added Rule: Name=Schematic Width Constraint_14
+Added Rule: Name=Schematic Width Constraint_15
