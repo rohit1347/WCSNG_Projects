@@ -1,0 +1,24 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of PCB Document [RF_switch_ckt.PcbDoc]
+   Generated File[Free Documents.GTO]
+   Generated File[Free Documents.GTS]
+   Generated File[Free Documents.GTL]
+   Generated File[Free Documents.G1]
+   Generated File[Free Documents.G2]
+   Generated File[Free Documents.GBL]
+   Generated File[Free Documents.GBS]
+   Generated File[Free Documents.GBO]
+   Generated File[Free Documents.GM1]
+   Generated File[Free Documents.GKO]
+   Generated File[Free Documents.GPT]
+   Generated File[Free Documents.GPB]
+   Generated File[Free Documents.RUL]
+   Generated File[Free Documents.EXTREP]
+   Generated File[Free Documents.REP]
+
+
+Files Generated   : 15
+Documents Printed : 0
+
+Finished Output Generation At 23:34:11 On 22-11-2019

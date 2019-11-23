@@ -1,0 +1,24 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of PCB Document [408HR_pcbminions.PcbDoc]
+   Generated File[408HR_pcbminions.GTO]
+   Generated File[408HR_pcbminions.GTS]
+   Generated File[408HR_pcbminions.GTL]
+   Generated File[408HR_pcbminions.G1]
+   Generated File[408HR_pcbminions.G2]
+   Generated File[408HR_pcbminions.GBL]
+   Generated File[408HR_pcbminions.GBS]
+   Generated File[408HR_pcbminions.GBO]
+   Generated File[408HR_pcbminions.GM1]
+   Generated File[408HR_pcbminions.GKO]
+   Generated File[408HR_pcbminions.GPT]
+   Generated File[408HR_pcbminions.GPB]
+   Generated File[408HR_pcbminions.RUL]
+   Generated File[408HR_pcbminions.EXTREP]
+   Generated File[408HR_pcbminions.REP]
+
+
+Files Generated   : 15
+Documents Printed : 0
+
+Finished Output Generation At 23:43:01 On 22-11-2019

@@ -105,6 +105,139 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FOMCDECY
 
+[Document5]
+DocumentPath=6GIsola_outjob.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for 6G_ISOLA\6G_ISOLA.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for 6G_ISOLA\6G_ISOLA.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for 6G_ISOLA\6G_ISOLA.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for 6G_ISOLA\6G_ISOLA.REP
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for 6G_ISOLA\6G_ISOLA.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for 6G_ISOLA\6G_ISOLA\408HR_pcbminions.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for 6G_ISOLA\408HR_pcbminions.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for 6G_ISOLA\6G_ISOLA\408HR_pcbminions.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for 6G_ISOLA\408HR_pcbminions.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for 6G_ISOLA\6G_ISOLA\408HR_pcbminions.G1
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for 6G_ISOLA\6G_ISOLA\408HR_pcbminions.G2
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for 6G_ISOLA\6G_ISOLA\408HR_pcbminions.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for 6G_ISOLA\6G_ISOLA\408HR_pcbminions.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for 6G_ISOLA\6G_ISOLA\408HR_pcbminions.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for 6G_ISOLA\6G_ISOLA\408HR_pcbminions.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for 6G_ISOLA\6G_ISOLA\408HR_pcbminions.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for 6G_ISOLA\6G_ISOLA\408HR_pcbminions.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for 6G_ISOLA\6G_ISOLA\408HR_pcbminions.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for 6G_ISOLA\6G_ISOLA\408HR_pcbminions.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for 6G_ISOLA\6G_ISOLA\408HR_pcbminions.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for 6G_ISOLA\6G_ISOLA\408HR_pcbminions.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for 6G_ISOLA\6G_ISOLA\408HR_pcbminions.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for 6G_ISOLA\408HR_pcbminions.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for 6G_ISOLA\6G_ISOLA\408HR_pcbminions.REP
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs for 6G_ISOLA\408HR_pcbminions.REP
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Project Outputs for 6G_ISOLA\6G_ISOLA\408HR_pcbminions.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs for 6G_ISOLA\408HR_pcbminions.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Project Outputs for 6G_ISOLA\6G_ISOLA\408HR_pcbminions.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Project Outputs for 6G_ISOLA\Design Rule Check - 408HR_pcbminions.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -1081,21 +1214,21 @@ ComponentSymbolReference0=Header 2
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 ComponentLibIdentifierKind1=Library Name And Type
-ComponentLibraryIdentifier1=Miscellaneous Connectors.IntLib
-ComponentDesignItemID1=Header 3X2A
-ComponentSymbolReference1=Header 3X2A
+ComponentLibraryIdentifier1=Miscellaneous Devices.IntLib
+ComponentDesignItemID1=Cap Semi
+ComponentSymbolReference1=Cap Semi
 ComponentUpdate1=1
 ComponentIsDeviceSheet1=0
 ComponentLibIdentifierKind2=Library Name And Type
-ComponentLibraryIdentifier2=Miscellaneous Devices.IntLib
-ComponentDesignItemID2=Cap Semi
-ComponentSymbolReference2=Cap Semi
+ComponentLibraryIdentifier2=wcsng_altium.IntLib
+ComponentDesignItemID2=SKY13575-639LF
+ComponentSymbolReference2=SKY13575-639LF
 ComponentUpdate2=1
 ComponentIsDeviceSheet2=0
 ComponentLibIdentifierKind3=Library Name And Type
 ComponentLibraryIdentifier3=wcsng_altium.IntLib
-ComponentDesignItemID3=SKY13575-639LF
-ComponentSymbolReference3=SKY13575-639LF
+ComponentDesignItemID3=SMA-OSHPARK-4L-1.6MM-ALT3
+ComponentSymbolReference3=SMA-OSHPARK-4L-1.6MM-ALT3
 ComponentUpdate3=1
 ComponentIsDeviceSheet3=0
 FullReplace=1
@@ -1117,22 +1250,38 @@ ParameterName1=Component Kind
 ParameterUpdate1=1
 ParameterName2=Description
 ParameterUpdate2=1
-ParameterName3=LatestRevisionDate
+ParameterName3=DeviceName
 ParameterUpdate3=1
-ParameterName4=LatestRevisionNote
+ParameterName4=DeviceSetName
 ParameterUpdate4=1
-ParameterName5=Library Reference
+ParameterName5=GateName_1
 ParameterUpdate5=1
-ParameterName6=PackageDescription
+ParameterName6=LatestRevisionDate
 ParameterUpdate6=1
-ParameterName7=PackageReference
+ParameterName7=LatestRevisionNote
 ParameterUpdate7=1
-ParameterName8=Published
+ParameterName8=Library Reference
 ParameterUpdate8=1
-ParameterName9=Publisher
+ParameterName9=LibraryName
 ParameterUpdate9=1
-ParameterName10=Value
+ParameterName10=Package
 ParameterUpdate10=1
+ParameterName11=PackageDescription
+ParameterUpdate11=1
+ParameterName12=PackageReference
+ParameterUpdate12=1
+ParameterName13=Published
+ParameterUpdate13=1
+ParameterName14=Publisher
+ParameterUpdate14=1
+ParameterName15=Supplier 1
+ParameterUpdate15=1
+ParameterName16=Supplier Part Number 1
+ParameterUpdate16=1
+ParameterName17=SymbolName_1
+ParameterUpdate17=1
+ParameterName18=Value
+ParameterUpdate18=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
@@ -1157,7 +1306,7 @@ ModelType6=PCBLIB
 ModelName6=HDR1X2
 ModelUpdate6=1
 ModelType7=PCBLIB
-ModelName7=HDR2X3_CEN
+ModelName7=SMA-OSHPARK-4L-1.6MM- ALT3
 ModelUpdate7=1
 ModelTypeGroup1=SI
 ModelTypeUpdate1=1
