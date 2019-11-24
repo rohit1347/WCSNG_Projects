@@ -1,0 +1,28 @@
+Added Component: Designator=?(FP-2)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "JH-121-PIN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "wcsn_parts"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "FP-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "JH-121-PIN"; VariantName = "[No Variations]"
+Added Component: Designator=?(FP-2)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "JH-121-PIN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "wcsn_parts"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "FP-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "JH-121-PIN"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=v1_1_1 Member=Component ? IDT-F1958
+Added Member To Class: ClassName=v1_1_1 Member=Component ? IDT-F1958
+Added Member To Class: ClassName=v1_1_1 Member=Component ? IDT-F1958
+Added Member To Class: ClassName=v1_1_1 Member=Component ? IDT-F1958
+Added Member To Class: ClassName=v1_1_1 Member=Component ? IDT-F1958
+Added Member To Class: ClassName=v1_1_1 Member=Component ? JH-121-PIN
+Added Member To Class: ClassName=v1_1_1 Member=Component ? IDT-F1958
+Added Member To Class: ClassName=v1_1_1 Member=Component ? IDT-F1958
+Added Member To Class: ClassName=v1_1_1 Member=Component ? IDT-F1958
+Added Member To Class: ClassName=v1_1_1 Member=Component J? SMA 50 Ohm edge
+Added Member To Class: ClassName=v1_1_1 Member=Component J? SMA 50 Ohm edge
+Added Member To Class: ClassName=v1_1_1 Member=Component J? SMA 50 Ohm edge

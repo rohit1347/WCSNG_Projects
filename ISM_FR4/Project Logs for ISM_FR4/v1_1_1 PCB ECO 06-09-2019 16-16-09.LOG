@@ -1,0 +1,39 @@
+Added Component: Designator=J?(SMA-OSHPARK-4L-1.6MM)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DeviceName"; Value = "-OSHPARK-4L-1.6MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "SMA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "dword1511-connectors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SMA-OSHPARK-4L-1.6MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "COAX"; VariantName = "[No Variations]"
+Added Component: Designator=J?(SMA-OSHPARK-4L-1.6MM)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DeviceName"; Value = "-OSHPARK-4L-1.6MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "SMA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "dword1511-connectors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SMA-OSHPARK-4L-1.6MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "COAX"; VariantName = "[No Variations]"
+Added Component: Designator=J?(SMA-OSHPARK-4L-1.6MM)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DeviceName"; Value = "-OSHPARK-4L-1.6MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "SMA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "dword1511-connectors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SMA-OSHPARK-4L-1.6MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "COAX"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=J?-GND
+Added Pin To Net: NetName=GND Pin=J?-GND
+Added Pin To Net: NetName=GND Pin=J?-GND
+Added Pin To Net: NetName=GND Pin=J?-GND
+Added Pin To Net: NetName=GND Pin=J?-GND
+Added Pin To Net: NetName=GND Pin=J?-GND
+Added Pin To Net: NetName=GND Pin=J?-GND
+Added Pin To Net: NetName=GND Pin=J?-GND
+Added Net: Name=GND
+Added Pin To Net: NetName=RF2 Pin=J?-SIG
+Added Pin To Net: NetName=RF2 Pin=J?-SIG
+Added Net: Name=RF2
+Added Member To Class: ClassName=v1_1_1 Member=Component J? SMA 50 Ohm edge
+Added Member To Class: ClassName=v1_1_1 Member=Component J? SMA 50 Ohm edge
+Added Member To Class: ClassName=v1_1_1 Member=Component J? SMA 50 Ohm edge

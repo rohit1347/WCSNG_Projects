@@ -1,0 +1,23 @@
+Change Component Designator: OldDesignator=? NewDesignator=T1
+Change Component Designator: OldDesignator=? NewDesignator=T2
+Change Component Designator: OldDesignator=C1 NewDesignator=CS1
+Change Component Designator: OldDesignator=C2 NewDesignator=CS2
+Change Component Designator: OldDesignator=C3 NewDesignator=CS3
+Change Component Designator: OldDesignator=C4 NewDesignator=CS4
+Change Component Designator: OldDesignator=C5 NewDesignator=CS5
+Change Component Designator: OldDesignator=C6 NewDesignator=CS6
+Change Component Designator: OldDesignator=C7 NewDesignator=CS7
+Change Net Name : Old Net Name=Net?_T New Net Name=NetCS7_5
+Added Pin To Net: NetName=NetS1_5 Pin=S1-5
+Added Pin To Net: NetName=NetS1_5 Pin=T1-T
+Added Net: Name=NetS1_5
+Added Member To Class: ClassName=v1_1_1 Member=Component CS1 PS3216GT2-R50-T5
+Added Member To Class: ClassName=v1_1_1 Member=Component CS2 PS3216GT2-R50-T5
+Added Member To Class: ClassName=v1_1_1 Member=Component CS3 PS3216GT2-R50-T5
+Added Member To Class: ClassName=v1_1_1 Member=Component CS4 PS3216GT2-R50-T5
+Added Member To Class: ClassName=v1_1_1 Member=Component CS5 PS3216GT2-R50-T5
+Added Member To Class: ClassName=v1_1_1 Member=Component CS6 PS3216GT2-R50-T5
+Added Member To Class: ClassName=v1_1_1 Member=Component CS7 JH-121-PIN
+Added Member To Class: ClassName=v1_1_1 Member=Component J2 SMA 50 Ohm edge
+Added Member To Class: ClassName=v1_1_1 Member=Component T1 C20A50Z4
+Added Member To Class: ClassName=v1_1_1 Member=Component T2 C20A50Z4

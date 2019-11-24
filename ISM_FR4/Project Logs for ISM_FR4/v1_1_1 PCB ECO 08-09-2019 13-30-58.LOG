@@ -1,0 +1,23 @@
+Change Component Designator: OldDesignator=? NewDesignator=S1
+Added Component: Designator=S2(*SUSUMU_PS3216GT2-R50-T5_PS3216GT2-R50-T5(Primary))
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Susumu"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "PS3216GT2-R50-T5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "1206 Susumu"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/PS3216GT2-R50-T5/Susumu/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Member To Class: ClassName=v1_1_1 Member=Component ? IDT-F1958
+Added Member To Class: ClassName=v1_1_1 Member=Component ? IDT-F1958
+Added Member To Class: ClassName=v1_1_1 Member=Component ? IDT-F1958
+Added Member To Class: ClassName=v1_1_1 Member=Component ? IDT-F1958
+Added Member To Class: ClassName=v1_1_1 Member=Component ? IDT-F1958
+Added Member To Class: ClassName=v1_1_1 Member=Component ? IDT-F1958
+Added Member To Class: ClassName=v1_1_1 Member=Component ? JH-121-PIN
+Added Member To Class: ClassName=v1_1_1 Member=Component ? IDT-F1958
+Added Member To Class: ClassName=v1_1_1 Member=Component J? SMA 50 Ohm edge
+Added Member To Class: ClassName=v1_1_1 Member=Component J? SMA 50 Ohm edge
+Added Member To Class: ClassName=v1_1_1 Member=Component J? SMA 50 Ohm edge
+Added Member To Class: ClassName=v1_1_1 Member=Component S1 JH-121-PIN
+Added Member To Class: ClassName=v1_1_1 Member=Component S2 PS3216GT2-R50-T5

@@ -1,0 +1,32 @@
+PCAD Importer Log
+Project : CONSMA001-SMD-G.LibPkg
+
+Section : C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\AC_board\CONSMA001-SMD-G.lia
+    Section : PCB Library - CONSMA001-SMD-G.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token CONSMA001-SMD-G On Line 218
+            Warning - 1 : Skipping Token attachedSymbol On Line 301
+        EndSection
+
+        Section : Import Messages
+            Warning - 0 : PCAD Pattern Graphics [*LINX_CONSMA001-SMD-G][Primary] associated with PCAD Component [CONSMA001-SMD-G] has been renamed to PCB FootPrint [*LINX_CONSMA001-SMD-G_CONSMA001-SMD-G(Primary)].
+        EndSection
+    EndSection
+
+    Section : SCH Library - CONSMA001-SMD-G.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token padStyleDef On Line 21
+            Warning - 1 : Skipping Token multiLayer On Line 96
+            Warning - 1 : Skipping Token layerContents On Line 103
+            Warning - 1 : Skipping Token layerContents On Line 187
+            Warning - 1 : Skipping Token layerContents On Line 192
+            Warning - 1 : Skipping Token layerContents On Line 198
+            Warning - 1 : Skipping Token layerContents On Line 207
+        EndSection
+
+        Section : Generating SCH Library - CONSMA001-SMD-G.SchLib
+            Warning - 0 : PCAD Pattern Graphics [*LINX_CONSMA001-SMD-G][Primary] associated with PCAD Component [CONSMA001-SMD-G] has been renamed to PCB FootPrint [*LINX_CONSMA001-SMD-G_CONSMA001-SMD-G(Primary)].
+        EndSection
+    EndSection
+EndSection

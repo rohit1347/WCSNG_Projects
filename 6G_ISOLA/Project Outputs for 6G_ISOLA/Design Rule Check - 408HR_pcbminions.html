@@ -1,0 +1,611 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 8em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD19\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">23-11-2019</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">11:30:43</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:01</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc" class="file"><acronym title="C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc">C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">53</td></tr>
+</table>
+</td>
+</table><a name="IDP4GB0DKMVN0JEXZL24U3JUNIIC0V2A3WOVVM2BLFV1RNKJLB54XF"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDUTMSA14WCBYOCPRQUQBFIZ5IBGNCGELAODUYLTFYSWLS2314FKCI">Clearance Constraint (Gap=0.254mm) (InNet('Sig1')),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDOGLNXAF1LFX3KM0ABIPPTXP4RE2DNTLPN2TZ2ZPIVXB33SLULKQP">Clearance Constraint (Gap=0.254mm) (InNet('TRAN_smooth')),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID1Z2GUVVCGAU2BOQ3UA0UA1OYWPIB0DQKCHR52SNYPGD302LESDQC">Clearance Constraint (Gap=0.254mm) (InNet('Sig2')),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID5CPABEP241HUFHDOJQZDWE21ODUY51DGQFEMZZFGAPI0XLHZ15VG">Clearance Constraint (Gap=0.254mm) (InNet('TRAN_rect')),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDD4L2ZWSNT4B3HRICZ3SEU414KKK5UESKRFVEIXFWPKEYGLHDAPSP">Clearance Constraint (Gap=0.254mm) (InNet('Sig3')),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID2EBRBGLPJ1JIORRZJY5XPETCI03VL4UTYNTSMCG2DZ0J22ZLRUP">Clearance Constraint (Gap=0.254mm) (InNet('CPWG55')),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID5EWUEYG2F124GRMWAKQ2EKFJLIYPATBPQMJA3BLFHJI3HOVT4CFL">Clearance Constraint (Gap=0.051mm) (InNet('RF1')),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDSMJS1TMED41RIX0G523BD2BV3FZKXR2J2OHEP1GWZMEGBMUULJFM">Clearance Constraint (Gap=0.254mm) (InNet('CPWG50')),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDJ4FWHHXISBS2HG14P5UMV1AG4DB2DRXSK4YFN2KLM2RW143II0AH">Clearance Constraint (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID33YWNLDV40Z1HRP0F0GFVA1T3EJ04Z31O5J23ABZVW4XXSWZRSFJ">Clearance Constraint (Gap=0.254mm) (InNet('CPWG45')),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDZ41CIFUZ1QGGIKO4G0IRI0ZLMEGW5CTV0OCCJJMIDCFOHEQUT20M">Clearance Constraint (Gap=0.254mm) (InNet('TRAN_rect')),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID2J453VUJW2IMKYH2H1N3Z0TOXLIGG3A3NNPHNEGH35ULSVYB2AM">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDPQG5N3S2C4BJJ5QDTZRYTMA1OOD0ARXJUJB23KEHEODXBA3BFEP">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">8</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID3IUXLXXMEBYPIFUDICHBOAR2LDJ1SC0HIOZ3CTKKPCFGZOHD0HSJ">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDXZLZ5QGVE3AHCPVYY2TBAPBAOC2SVEF4MFLAQVK4OZVZOSNCTTRF">Width Constraint (Min=0.254mm) (Max=2.467mm) (Preferred=0.348mm) (InNet('Sig2'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDAFPDJDE1FR0RK5UIUUZGTICVOBW012PBX2HYO0M0JK5APSGE4EIL">Width Constraint (Min=0.254mm) (Max=2.467mm) (Preferred=0.348mm) (InNet('Sig1'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDE1SQPMTJX0D2N11PB04M1PIKRVO1BRHWJYCRKRSYINA3A14B5F">Width Constraint (Min=0.254mm) (Max=2.467mm) (Preferred=0.348mm) (InNet('Sig3'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID1FPZHRL0WW43BNAS1IDKFITJLNDZU20QY3F40CIP2U4MY5PETHHB">Width Constraint (Min=0.254mm) (Max=2.467mm) (Preferred=0.348mm) (InNet('TRAN_smooth'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID42A1KEEADMLPBCFZVGQDXNLQLMZH1G5BJI115ZCBUSPYOGFNXFQK">Width Constraint (Min=0.254mm) (Max=2.467mm) (Preferred=0.348mm) (InNet('TRAN_sharp'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDWNEGSTXSKGCIJYEEPIGZSGCUWNAKVZNM4YB4GJHM0ERTKPE1TIPP">Width Constraint (Min=0.254mm) (Max=0.254mm) (Preferred=0.254mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDUE3MZS02QPCUGSYGSAKPYENFDC5XYS5CHQTQCCOR4SNQBVRDC51B">Width Constraint (Min=0.254mm) (Max=0.287mm) (Preferred=0.287mm) (InNet('RF1'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDSVW3XOCNSPI5MNNKJ01XTDNQEFXLM3VUK1PT2LC3NJWZRGPGKMBL">Width Constraint (Min=0.254mm) (Max=0.287mm) (Preferred=0.287mm) (InNet('RF2'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDTOOXT5JGPPTGJRHGOD5DUHFYQKGZYKTQQ3LRODCAH1RLTSYX4PRL">Width Constraint (Min=0.254mm) (Max=2.467mm) (Preferred=0.348mm) (InNet('TRAN_rect'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDG4LBNOVZZYIVOKLPGSTWYVDEPNOEMT14LKW1ONIYUSQ3JHZSEK0O">Width Constraint (Min=0.254mm) (Max=0.287mm) (Preferred=0.287mm) (InNet('RF3'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID2S2O5MCCEFRLCT4TI0ZGDO0RUH4SESK23NUSG1I5C11AGN4BHNFB">Width Constraint (Min=0.254mm) (Max=0.287mm) (Preferred=0.287mm) (InNet('RFC'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDR0EXQEJEBCNQJKTK5Q4VPB0RBMBZLOHHIADU2QPP53ATXZT33B2C">Width Constraint (Min=0.254mm) (Max=0.287mm) (Preferred=0.287mm) (InNet('RF4'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID3002ZULUE2JSBGWHSDEOVBMLDEGSZRKZYDX0W4EWMV0L0JELQKCE">Width Constraint (Min=0.348mm) (Max=0.348mm) (Preferred=0.348mm) (InNet('TRAN_smooth'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDJDNDKEBWNZP4GAGAE4LGFJZPWB0P3L5JLWNDOVBXY4AS41TWIIFL">Width Constraint (Min=0.348mm) (Max=0.348mm) (Preferred=0.348mm) (InNet('CPWG50'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID2DFACFAJPWVCCFNXT1WKEWL2KCUJ5RY2YIOMT3BHVMCXBMQJCA2N">Width Constraint (Min=0.293mm) (Max=0.293mm) (Preferred=0.293mm) (InNet('CPWG55'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDY1SSBA1ZQCOCK511O0WPLBK5AKHBHOAWAZMWWNOUFHQ4ZLODWTKJ">Width Constraint (Min=0.417mm) (Max=0.417mm) (Preferred=0.417mm) (InNet('CPWG45'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDDXUYVGYMAA2UDX4XIA42TWZBLMKJG2DI2RCHT1JDFPCZCHNKNGG">Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDNQQWEZG4IXCZKFJKFU35LU3JKKXV0XVRRDCBDAB0PV1L2EWEF2PG">Hole Size Constraint (Min=0.152mm) (Max=0.508mm) (All)</a></td>
+<td class="column2">4</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDHFOMWLR3NIV5ORDS42VV5DXLALYOWRYVVCXFS0F2AC5S4E0BHFIP">Hole To Hole Clearance (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDIEMJ3G3FTX1WNUGMQVRQGZQXMKXDTMYLHMYU5JFDJKRARI44LSIE">Minimum Solder Mask Sliver (Gap=0.1mm) (All),(All)</a></td>
+<td class="column2">34</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID4KIOEQULQVHHH0EG1DJPZYFVKCUYXBXZGZS1EPGY02L2FVF0MAZF">Silk To Solder Mask (Clearance=0.254mm) (IsPad),(All)</a></td>
+<td class="column2">1</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDY5TVPTD2F3CDJKQXORNYEHQ5NHAJH51X3XO32DFVTKUVCUF3YVIG">Silk to Silk (Clearance=0.254mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDGECYQFYCFXOVLM1HFF0SBWCBJLLCXCNQQANAGIBFGLDMAKX4VVVG">Net Antennae (Tolerance=0mm) (All)</a></td>
+<td class="column2">3</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDWER1XVHPB2DMOF20ITS2FOWH1LVKT1ZULTZLJVL0WTNX33C0Y0NG">Board Clearance Constraint (Gap=0mm) (All)</a></td>
+<td class="column2">3</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDK1T1KOTBO2YZDQHGHJFYTPZTCLS5GURIR1PAYPMIJ4BEWGEY3VXF">Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">53</td>
+</tr>
+</table><br><a name="IDPQG5N3S2C4BJJ5QDTZRYTMA1OOD0ARXJUJB23KEHEODXBA3BFEP"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Un-Routed Net Constraint ( (All) )</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4727.008mil|Location2.X=4935.008mil|Location1.Y=2942.354mil|Location2.Y=3040.354mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4727.008mil|Location2.X=4935.008mil|Location1.Y=2942.354mil|Location2.Y=3040.354mil|Absolute=True">Un-Routed Net Constraint: Net GND_TRAN Between Pad J10-GND(77.308mm,50.58mm) on Top Layer And Pad J10-GND(77.308mm,50.58mm) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4727.008mil|Location2.X=4935.008mil|Location1.Y=3290.354mil|Location2.Y=3388.354mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4727.008mil|Location2.X=4935.008mil|Location1.Y=3290.354mil|Location2.Y=3388.354mil|Absolute=True">Un-Routed Net Constraint: Net GND_TRAN Between Pad J10-GND(77.308mm,59.42mm) on Top Layer And Pad J10-GND(77.308mm,59.42mm) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1789.401mil|Location2.X=1997.401mil|Location1.Y=6637.15mil|Location2.Y=6735.15mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1789.401mil|Location2.X=1997.401mil|Location1.Y=6637.15mil|Location2.Y=6735.15mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad J12-GND(2.692mm,144.428mm) on Top Layer And Pad J12-GND(2.692mm,144.428mm) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1789.401mil|Location2.X=1997.401mil|Location1.Y=6985.15mil|Location2.Y=7083.15mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1789.401mil|Location2.X=1997.401mil|Location1.Y=6985.15mil|Location2.Y=7083.15mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad J12-GND(2.692mm,153.267mm) on Top Layer And Pad J12-GND(2.692mm,153.267mm) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4727.008mil|Location2.X=4935.008mil|Location1.Y=4517.158mil|Location2.Y=4615.158mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4727.008mil|Location2.X=4935.008mil|Location1.Y=4517.158mil|Location2.Y=4615.158mil|Absolute=True">Un-Routed Net Constraint: Net GND_TRAN Between Pad J14-GND(77.308mm,90.58mm) on Top Layer And Pad J14-GND(77.308mm,90.58mm) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4727.008mil|Location2.X=4935.008mil|Location1.Y=4865.158mil|Location2.Y=4963.158mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4727.008mil|Location2.X=4935.008mil|Location1.Y=4865.158mil|Location2.Y=4963.158mil|Absolute=True">Un-Routed Net Constraint: Net GND_TRAN Between Pad J14-GND(77.308mm,99.42mm) on Top Layer And Pad J14-GND(77.308mm,99.42mm) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4727.008mil|Location2.X=4935.008mil|Location1.Y=4077.756mil|Location2.Y=4175.756mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4727.008mil|Location2.X=4935.008mil|Location1.Y=4077.756mil|Location2.Y=4175.756mil|Absolute=True">Un-Routed Net Constraint: Net GND_TRAN Between Pad J6-GND(77.308mm,79.42mm) on Top Layer And Pad J6-GND(77.308mm,79.42mm) on Bottom Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4362.464mil|Location2.X=4426.694mil|Location1.Y=5817.724mil|Location2.Y=5843.229mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4362.464mil|Location2.X=4426.694mil|Location1.Y=5817.724mil|Location2.Y=5843.229mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad U1-6(65.608mm,122.669mm) on Top Layer And Via (66.835mm,122.815mm) from Top Layer to Bottom Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDNQQWEZG4IXCZKFJKFU35LU3JKKXV0XVRRDCBDAB0PV1L2EWEF2PG"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Hole Size Constraint (Min=0.152mm) (Max=0.508mm) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3815.06mil|Location2.X=3861.794mil|Location1.Y=6020.658mil|Location2.Y=6067.626mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3815.06mil|Location2.X=3861.794mil|Location1.Y=6020.658mil|Location2.Y=6067.626mil|Absolute=True">Hole Size Constraint: (0.9mm &gt; 0.508mm) Pad P1-1(51.968mm,127.991mm) on Multi-Layer Actual Hole Size = 0.9mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3915.06mil|Location2.X=3961.794mil|Location1.Y=6020.658mil|Location2.Y=6067.626mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3915.06mil|Location2.X=3961.794mil|Location1.Y=6020.658mil|Location2.Y=6067.626mil|Absolute=True">Hole Size Constraint: (0.9mm &gt; 0.508mm) Pad P1-2(54.508mm,127.991mm) on Multi-Layer Actual Hole Size = 0.9mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3915.06mil|Location2.X=3961.794mil|Location1.Y=6139.658mil|Location2.Y=6186.626mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3915.06mil|Location2.X=3961.794mil|Location1.Y=6139.658mil|Location2.Y=6186.626mil|Absolute=True">Hole Size Constraint: (0.9mm &gt; 0.508mm) Pad P2-1(54.508mm,131.013mm) on Multi-Layer Actual Hole Size = 0.9mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3815.06mil|Location2.X=3861.794mil|Location1.Y=6139.658mil|Location2.Y=6186.626mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3815.06mil|Location2.X=3861.794mil|Location1.Y=6139.658mil|Location2.Y=6186.626mil|Absolute=True">Hole Size Constraint: (0.9mm &gt; 0.508mm) Pad P2-2(51.968mm,131.013mm) on Multi-Layer Actual Hole Size = 0.9mm</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDIEMJ3G3FTX1WNUGMQVRQGZQXMKXDTMYLHMYU5JFDJKRARI44LSIE"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Minimum Solder Mask Sliver (Gap=0.1mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4393.497mil|Location2.X=4398.684mil|Location1.Y=5763.682mil|Location2.Y=5768.869mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4393.497mil|Location2.X=4398.684mil|Location1.Y=5763.682mil|Location2.Y=5768.869mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.002mm &lt; 0.1mm) Between Pad U1-1(66.561mm,121.042mm) on Top Layer And Pad U1-14(66.058mm,120.764mm) on Top Layer [Top Solder] Mask Sliver [0.002mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4392.512mil|Location2.X=4397.699mil|Location1.Y=5765.721mil|Location2.Y=5770.908mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4392.512mil|Location2.X=4397.699mil|Location1.Y=5765.721mil|Location2.Y=5770.908mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.052mm &lt; 0.1mm) Between Pad U1-1(66.561mm,121.042mm) on Top Layer And Pad U1-15(65.608mm,121.717mm) on Top Layer [Top Solder] Mask Sliver [0.052mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4417.083mil|Location2.X=4422.27mil|Location1.Y=5771.69mil|Location2.Y=5776.877mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4417.083mil|Location2.X=4422.27mil|Location1.Y=5771.69mil|Location2.Y=5776.877mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.047mm &lt; 0.1mm) Between Pad U1-1(66.561mm,121.042mm) on Top Layer And Pad U1-2(66.561mm,121.492mm) on Top Layer [Top Solder] Mask Sliver [0.047mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4392.171mil|Location2.X=4398.937mil|Location1.Y=5752mil|Location2.Y=5759.574mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4392.171mil|Location2.X=4398.937mil|Location1.Y=5752mil|Location2.Y=5759.574mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.074mm &lt; 0.1mm) Between Pad U1-1(66.561mm,121.042mm) on Top Layer And Track (66.058mm,120.523mm)(66.058mm,120.764mm) on Top Solder [Top Solder] Mask Sliver [0.074mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4318.532mil|Location2.X=4323.719mil|Location1.Y=5771.69mil|Location2.Y=5776.877mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4318.532mil|Location2.X=4323.719mil|Location1.Y=5771.69mil|Location2.Y=5776.877mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.047mm &lt; 0.1mm) Between Pad U1-10(64.656mm,121.492mm) on Top Layer And Pad U1-11(64.656mm,121.042mm) on Top Layer [Top Solder] Mask Sliver [0.047mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4343.103mil|Location2.X=4348.29mil|Location1.Y=5772.611mil|Location2.Y=5777.798mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4343.103mil|Location2.X=4348.29mil|Location1.Y=5772.611mil|Location2.Y=5777.798mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.052mm &lt; 0.1mm) Between Pad U1-10(64.656mm,121.492mm) on Top Layer And Pad U1-15(65.608mm,121.717mm) on Top Layer [Top Solder] Mask Sliver [0.052mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4318.532mil|Location2.X=4323.719mil|Location1.Y=5789.406mil|Location2.Y=5794.593mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4318.532mil|Location2.X=4323.719mil|Location1.Y=5789.406mil|Location2.Y=5794.593mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.047mm &lt; 0.1mm) Between Pad U1-10(64.656mm,121.492mm) on Top Layer And Pad U1-9(64.656mm,121.942mm) on Top Layer [Top Solder] Mask Sliver [0.047mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4342.119mil|Location2.X=4347.306mil|Location1.Y=5763.682mil|Location2.Y=5768.869mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4342.119mil|Location2.X=4347.306mil|Location1.Y=5763.682mil|Location2.Y=5768.869mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.002mm &lt; 0.1mm) Between Pad U1-11(64.656mm,121.042mm) on Top Layer And Pad U1-12(65.158mm,120.764mm) on Top Layer [Top Solder] Mask Sliver [0.002mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4343.103mil|Location2.X=4348.29mil|Location1.Y=5765.721mil|Location2.Y=5770.908mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4343.103mil|Location2.X=4348.29mil|Location1.Y=5765.721mil|Location2.Y=5770.908mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.052mm &lt; 0.1mm) Between Pad U1-11(64.656mm,121.042mm) on Top Layer And Pad U1-15(65.608mm,121.717mm) on Top Layer [Top Solder] Mask Sliver [0.052mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4342.987mil|Location2.X=4349.68mil|Location1.Y=5754.514mil|Location2.Y=5762.006mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4342.987mil|Location2.X=4349.68mil|Location1.Y=5754.514mil|Location2.Y=5762.006mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.05mm &lt; 0.1mm) Between Pad U1-11(64.656mm,121.042mm) on Top Layer And Track (65.133mm,116.764mm)(65.133mm,120.765mm) on Top Solder [Top Solder] Mask Sliver [0.05mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4358.949mil|Location2.X=4364.136mil|Location1.Y=5763.682mil|Location2.Y=5768.869mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4358.949mil|Location2.X=4364.136mil|Location1.Y=5763.682mil|Location2.Y=5768.869mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.047mm &lt; 0.1mm) Between Pad U1-12(65.158mm,120.764mm) on Top Layer And Pad U1-13(65.608mm,120.764mm) on Top Layer [Top Solder] Mask Sliver [0.047mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4358.028mil|Location2.X=4363.215mil|Location1.Y=5764.702mil|Location2.Y=5769.889mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4358.028mil|Location2.X=4363.215mil|Location1.Y=5764.702mil|Location2.Y=5769.889mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.052mm &lt; 0.1mm) Between Pad U1-12(65.158mm,120.764mm) on Top Layer And Pad U1-15(65.608mm,121.717mm) on Top Layer [Top Solder] Mask Sliver [0.052mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4376.666mil|Location2.X=4381.853mil|Location1.Y=5763.682mil|Location2.Y=5768.869mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4376.666mil|Location2.X=4381.853mil|Location1.Y=5763.682mil|Location2.Y=5768.869mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.047mm &lt; 0.1mm) Between Pad U1-13(65.608mm,120.764mm) on Top Layer And Pad U1-14(66.058mm,120.764mm) on Top Layer [Top Solder] Mask Sliver [0.047mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4359.871mil|Location2.X=4365.058mil|Location1.Y=5764.702mil|Location2.Y=5769.889mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4359.871mil|Location2.X=4365.058mil|Location1.Y=5764.702mil|Location2.Y=5769.889mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.052mm &lt; 0.1mm) Between Pad U1-13(65.608mm,120.764mm) on Top Layer And Pad U1-15(65.608mm,121.717mm) on Top Layer [Top Solder] Mask Sliver [0.052mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4392.477mil|Location2.X=4399.445mil|Location1.Y=5764.702mil|Location2.Y=5771.713mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4392.477mil|Location2.X=4399.445mil|Location1.Y=5764.702mil|Location2.Y=5771.713mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.072mm &lt; 0.1mm) Between Pad U1-14(66.058mm,120.764mm) on Top Layer And Pad U1-15(65.608mm,121.717mm) on Top Layer [Top Solder] Mask Sliver [0.072mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4392.512mil|Location2.X=4397.699mil|Location1.Y=5788.485mil|Location2.Y=5793.672mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4392.512mil|Location2.X=4397.699mil|Location1.Y=5788.485mil|Location2.Y=5793.672mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.052mm &lt; 0.1mm) Between Pad U1-15(65.608mm,121.717mm) on Top Layer And Pad U1-2(66.561mm,121.492mm) on Top Layer [Top Solder] Mask Sliver [0.052mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4392.512mil|Location2.X=4397.699mil|Location1.Y=5790.328mil|Location2.Y=5795.515mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4392.512mil|Location2.X=4397.699mil|Location1.Y=5790.328mil|Location2.Y=5795.515mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.052mm &lt; 0.1mm) Between Pad U1-15(65.608mm,121.717mm) on Top Layer And Pad U1-3(66.561mm,121.942mm) on Top Layer [Top Solder] Mask Sliver [0.052mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4392.512mil|Location2.X=4397.699mil|Location1.Y=5808.044mil|Location2.Y=5813.231mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4392.512mil|Location2.X=4397.699mil|Location1.Y=5808.044mil|Location2.Y=5813.231mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.052mm &lt; 0.1mm) Between Pad U1-15(65.608mm,121.717mm) on Top Layer And Pad U1-4(66.561mm,122.392mm) on Top Layer [Top Solder] Mask Sliver [0.052mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4377.587mil|Location2.X=4382.774mil|Location1.Y=5814.111mil|Location2.Y=5819.298mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4377.587mil|Location2.X=4382.774mil|Location1.Y=5814.111mil|Location2.Y=5819.298mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.052mm &lt; 0.1mm) Between Pad U1-15(65.608mm,121.717mm) on Top Layer And Pad U1-5(66.058mm,122.669mm) on Top Layer [Top Solder] Mask Sliver [0.052mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4359.871mil|Location2.X=4365.058mil|Location1.Y=5814.111mil|Location2.Y=5819.298mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4359.871mil|Location2.X=4365.058mil|Location1.Y=5814.111mil|Location2.Y=5819.298mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.052mm &lt; 0.1mm) Between Pad U1-15(65.608mm,121.717mm) on Top Layer And Pad U1-6(65.608mm,122.669mm) on Top Layer [Top Solder] Mask Sliver [0.052mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4358.028mil|Location2.X=4363.215mil|Location1.Y=5814.111mil|Location2.Y=5819.298mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4358.028mil|Location2.X=4363.215mil|Location1.Y=5814.111mil|Location2.Y=5819.298mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.052mm &lt; 0.1mm) Between Pad U1-15(65.608mm,121.717mm) on Top Layer And Pad U1-7(65.158mm,122.669mm) on Top Layer [Top Solder] Mask Sliver [0.052mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4343.103mil|Location2.X=4348.29mil|Location1.Y=5808.044mil|Location2.Y=5813.231mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4343.103mil|Location2.X=4348.29mil|Location1.Y=5808.044mil|Location2.Y=5813.231mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.052mm &lt; 0.1mm) Between Pad U1-15(65.608mm,121.717mm) on Top Layer And Pad U1-8(64.656mm,122.392mm) on Top Layer [Top Solder] Mask Sliver [0.052mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4343.103mil|Location2.X=4348.29mil|Location1.Y=5790.328mil|Location2.Y=5795.515mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4343.103mil|Location2.X=4348.29mil|Location1.Y=5790.328mil|Location2.Y=5795.515mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.052mm &lt; 0.1mm) Between Pad U1-15(65.608mm,121.717mm) on Top Layer And Pad U1-9(64.656mm,121.942mm) on Top Layer [Top Solder] Mask Sliver [0.052mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4417.083mil|Location2.X=4422.27mil|Location1.Y=5789.406mil|Location2.Y=5794.593mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4417.083mil|Location2.X=4422.27mil|Location1.Y=5789.406mil|Location2.Y=5794.593mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.047mm &lt; 0.1mm) Between Pad U1-2(66.561mm,121.492mm) on Top Layer And Pad U1-3(66.561mm,121.942mm) on Top Layer [Top Solder] Mask Sliver [0.047mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4393.532mil|Location2.X=4398.719mil|Location1.Y=5807.123mil|Location2.Y=5812.31mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4393.532mil|Location2.X=4398.719mil|Location1.Y=5807.123mil|Location2.Y=5812.31mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.047mm &lt; 0.1mm) Between Pad U1-3(66.561mm,121.942mm) on Top Layer And Pad U1-4(66.561mm,122.392mm) on Top Layer [Top Solder] Mask Sliver [0.047mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4405.308mil|Location2.X=4410.495mil|Location1.Y=5788.42mil|Location2.Y=5793.607mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4405.308mil|Location2.X=4410.495mil|Location1.Y=5788.42mil|Location2.Y=5793.607mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.097mm &lt; 0.1mm) Between Pad U1-3(66.561mm,121.942mm) on Top Layer And Track (66.561mm,121.5mm)(78.895mm,121.5mm) on Top Solder [Top Solder] Mask Sliver [0.097mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4393.497mil|Location2.X=4398.684mil|Location1.Y=5815.131mil|Location2.Y=5820.318mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4393.497mil|Location2.X=4398.684mil|Location1.Y=5815.131mil|Location2.Y=5820.318mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.002mm &lt; 0.1mm) Between Pad U1-4(66.561mm,122.392mm) on Top Layer And Pad U1-5(66.058mm,122.669mm) on Top Layer [Top Solder] Mask Sliver [0.002mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4392.171mil|Location2.X=4398.843mil|Location1.Y=5824.426mil|Location2.Y=5832.034mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4392.171mil|Location2.X=4398.843mil|Location1.Y=5824.426mil|Location2.Y=5832.034mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.074mm &lt; 0.1mm) Between Pad U1-4(66.561mm,122.392mm) on Top Layer And Track (66.058mm,122.669mm)(66.058mm,122.878mm) on Top Solder [Top Solder] Mask Sliver [0.074mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4416.101mil|Location2.X=4421.288mil|Location1.Y=5824.277mil|Location2.Y=5829.464mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4416.101mil|Location2.X=4421.288mil|Location1.Y=5824.277mil|Location2.Y=5829.464mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.018mm &lt; 0.1mm) Between Pad U1-4(66.561mm,122.392mm) on Top Layer And Via (66.835mm,122.815mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.018mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4376.666mil|Location2.X=4381.853mil|Location1.Y=5838.682mil|Location2.Y=5843.869mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4376.666mil|Location2.X=4381.853mil|Location1.Y=5838.682mil|Location2.Y=5843.869mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.047mm &lt; 0.1mm) Between Pad U1-5(66.058mm,122.669mm) on Top Layer And Pad U1-6(65.608mm,122.669mm) on Top Layer [Top Solder] Mask Sliver [0.047mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4358.949mil|Location2.X=4364.136mil|Location1.Y=5815.131mil|Location2.Y=5820.318mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4358.949mil|Location2.X=4364.136mil|Location1.Y=5815.131mil|Location2.Y=5820.318mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.047mm &lt; 0.1mm) Between Pad U1-6(65.608mm,122.669mm) on Top Layer And Pad U1-7(65.158mm,122.669mm) on Top Layer [Top Solder] Mask Sliver [0.047mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4342.119mil|Location2.X=4347.306mil|Location1.Y=5815.131mil|Location2.Y=5820.318mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4342.119mil|Location2.X=4347.306mil|Location1.Y=5815.131mil|Location2.Y=5820.318mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.002mm &lt; 0.1mm) Between Pad U1-7(65.158mm,122.669mm) on Top Layer And Pad U1-8(64.656mm,122.392mm) on Top Layer [Top Solder] Mask Sliver [0.002mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4318.532mil|Location2.X=4323.719mil|Location1.Y=5807.123mil|Location2.Y=5812.31mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4318.532mil|Location2.X=4323.719mil|Location1.Y=5807.123mil|Location2.Y=5812.31mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.047mm &lt; 0.1mm) Between Pad U1-8(64.656mm,122.392mm) on Top Layer And Pad U1-9(64.656mm,121.942mm) on Top Layer [Top Solder] Mask Sliver [0.047mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4343.445mil|Location2.X=4350.211mil|Location1.Y=5822.04mil|Location2.Y=5829.613mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4343.445mil|Location2.X=4350.211mil|Location1.Y=5822.04mil|Location2.Y=5829.613mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.074mm &lt; 0.1mm) Between Pad U1-8(64.656mm,122.392mm) on Top Layer And Track (65.158mm,122.669mm)(65.158mm,130.672mm) on Top Solder [Top Solder] Mask Sliver [0.074mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="ID4KIOEQULQVHHH0EG1DJPZYFVKCUYXBXZGZS1EPGY02L2FVF0MAZF"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk To Solder Mask (Clearance=0.254mm) (IsPad),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4412.68mil|Location2.X=4423.93mil|Location1.Y=5759.375mil|Location2.Y=5770.625mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4412.68mil|Location2.X=4423.93mil|Location1.Y=5759.375mil|Location2.Y=5770.625mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.133mm &lt; 0.254mm) Between Arc (67.005mm,121.031mm) on Top Overlay And Pad U1-1(66.561mm,121.042mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0.133mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDGECYQFYCFXOVLM1HFF0SBWCBJLLCXCNQQANAGIBFGLDMAKX4VVVG"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Net Antennae (Tolerance=0mm) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4590.718mil|Location2.X=4615.703mil|Location1.Y=6168.69mil|Location2.Y=6205.192mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4590.718mil|Location2.X=4615.703mil|Location1.Y=6168.69mil|Location2.Y=6205.192mil|Absolute=True">Net Antennae: Arc (73.279mm,129.769mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4342.543mil|Location2.X=4367.528mil|Location1.Y=5587.859mil|Location2.Y=5624.361mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4342.543mil|Location2.X=4367.528mil|Location1.Y=5587.859mil|Location2.Y=5624.361mil|Absolute=True">Net Antennae: Track (65.133mm,116.764mm)(65.133mm,120.765mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4343.543mil|Location2.X=4368.528mil|Location1.Y=6135.439mil|Location2.Y=6171.941mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4343.543mil|Location2.X=4368.528mil|Location1.Y=6135.439mil|Location2.Y=6171.941mil|Absolute=True">Net Antennae: Track (65.158mm,122.669mm)(65.158mm,130.672mm) on Top Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDWER1XVHPB2DMOF20ITS2FOWH1LVKT1ZULTZLJVL0WTNX33C0Y0NG"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Board Clearance Constraint (Gap=0mm) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1784.846mil|Location2.X=1796.096mil|Location1.Y=3159.729mil|Location2.Y=3170.979mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1784.846mil|Location2.X=1796.096mil|Location1.Y=3159.729mil|Location2.Y=3170.979mil|Absolute=True">Board Outline Clearance(Outline Edge): (0.156mm &lt; 0.254mm) Between Board Edge And Track (0.33mm,55mm)(1.105mm,55mm) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1784.383mil|Location2.X=1795.633mil|Location1.Y=5226.658mil|Location2.Y=5237.908mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1784.383mil|Location2.X=1795.633mil|Location1.Y=5226.658mil|Location2.Y=5237.908mil|Absolute=True">Board Outline Clearance(Outline Edge): (0.132mm &lt; 0.254mm) Between Board Edge And Track (0.3mm,107.5mm)(79.7mm,107.5mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1784.383mil|Location2.X=1795.633mil|Location1.Y=2667.604mil|Location2.Y=2678.854mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\6G_ISOLA\408HR_pcbminions.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1784.383mil|Location2.X=1795.633mil|Location1.Y=2667.604mil|Location2.Y=2678.854mil|Absolute=True">Board Outline Clearance(Outline Edge): (0.132mm &lt; 0.254mm) Between Board Edge And Track (0.3mm,42.5mm)(79.7mm,42.5mm) on Top Overlay </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

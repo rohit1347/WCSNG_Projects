@@ -1,0 +1,649 @@
+Change Component Designator: OldDesignator=? NewDesignator=A1
+Added Component: Designator=A?(VFQFPN-24)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "IDT-F1958"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "wcsn_parts"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "VFQFPN-24"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "F1958"; VariantName = "[No Variations]"
+Added Component: Designator=A?(VFQFPN-24)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "IDT-F1958"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "wcsn_parts"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "VFQFPN-24"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "F1958"; VariantName = "[No Variations]"
+Added Component: Designator=A?(VFQFPN-24)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "IDT-F1958"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "wcsn_parts"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "VFQFPN-24"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "F1958"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPC1608X90X35ML15T15)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://datasheet.octopart.com/06035A101JAT2A-AVX-datasheet-9883399.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Nov-10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "AVX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.avx.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "2-Pin Surface Mount Device, Body 1.6 x 0.81 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "603"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPC1608X90X35ML15T15)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://datasheet.octopart.com/06035A101JAT2A-AVX-datasheet-9883399.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Nov-10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "AVX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.avx.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "2-Pin Surface Mount Device, Body 1.6 x 0.81 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "603"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPC1608X90X35ML15T15)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://datasheet.octopart.com/06035A101JAT2A-AVX-datasheet-9883399.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Nov-10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "AVX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.avx.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "2-Pin Surface Mount Device, Body 1.6 x 0.81 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "603"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPC1608X90X35ML15T15)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://datasheet.octopart.com/06035A101JAT2A-AVX-datasheet-9883399.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Nov-10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "AVX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.avx.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "2-Pin Surface Mount Device, Body 1.6 x 0.81 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "603"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPC1608X90X35ML15T15)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://datasheet.octopart.com/06035A101JAT2A-AVX-datasheet-9883399.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Nov-10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "AVX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.avx.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "2-Pin Surface Mount Device, Body 1.6 x 0.81 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "603"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPC1608X90X35ML15T15)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://datasheet.octopart.com/06035A101JAT2A-AVX-datasheet-9883399.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Nov-10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "AVX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.avx.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "2-Pin Surface Mount Device, Body 1.6 x 0.81 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "603"; VariantName = "[No Variations]"
+Added Component: Designator=C?(*CAPC1608X90)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Digi-Key_Part_Number"; Value = "311-1085-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Purchase_URL"; Value = "https://www.digikey.com/product-detail/en/yageo/CC0603KRX7R9BB103/311-1085-1-ND/302995?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "CC0603KRX7R9BB103"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603 Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/CC0603KRX7R9BB103/Yageo/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "311-1085-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPC1608X90X35ML15T15)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://datasheet.octopart.com/06035A101JAT2A-AVX-datasheet-9883399.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Nov-10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "AVX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.avx.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "2-Pin Surface Mount Device, Body 1.6 x 0.81 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "603"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPC1608X90X35ML15T15)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://datasheet.octopart.com/06035A101JAT2A-AVX-datasheet-9883399.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Nov-10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "AVX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.avx.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "2-Pin Surface Mount Device, Body 1.6 x 0.81 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "603"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPC1608X90X35ML15T15)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://datasheet.octopart.com/06035A101JAT2A-AVX-datasheet-9883399.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Nov-10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "AVX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.avx.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "2-Pin Surface Mount Device, Body 1.6 x 0.81 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "603"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPC1608X90X35ML15T15)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://datasheet.octopart.com/06035A101JAT2A-AVX-datasheet-9883399.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Nov-10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "AVX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.avx.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "2-Pin Surface Mount Device, Body 1.6 x 0.81 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "603"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPC1608X90X35ML15T15)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://datasheet.octopart.com/06035A101JAT2A-AVX-datasheet-9883399.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Nov-10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "AVX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.avx.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "2-Pin Surface Mount Device, Body 1.6 x 0.81 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "603"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPC1608X90X35ML15T15)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://datasheet.octopart.com/06035A101JAT2A-AVX-datasheet-9883399.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Nov-10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "AVX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.avx.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "2-Pin Surface Mount Device, Body 1.6 x 0.81 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "603"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPC1608X90X35ML15T15)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://datasheet.octopart.com/06035A101JAT2A-AVX-datasheet-9883399.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Nov-10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "AVX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.avx.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "2-Pin Surface Mount Device, Body 1.6 x 0.81 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "603"; VariantName = "[No Variations]"
+Added Component: Designator=C?(*CAPC1608X90)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Digi-Key_Part_Number"; Value = "311-1085-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Purchase_URL"; Value = "https://www.digikey.com/product-detail/en/yageo/CC0603KRX7R9BB103/311-1085-1-ND/302995?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "CC0603KRX7R9BB103"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603 Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/CC0603KRX7R9BB103/Yageo/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "311-1085-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPC1608X90X35ML15T15)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://datasheet.octopart.com/06035A101JAT2A-AVX-datasheet-9883399.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Nov-10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "AVX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.avx.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "2-Pin Surface Mount Device, Body 1.6 x 0.81 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "603"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPC1608X90X35ML15T15)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://datasheet.octopart.com/06035A101JAT2A-AVX-datasheet-9883399.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Nov-10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "AVX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.avx.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "2-Pin Surface Mount Device, Body 1.6 x 0.81 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "603"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPC1608X90X35ML15T15)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://datasheet.octopart.com/06035A101JAT2A-AVX-datasheet-9883399.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Nov-10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "AVX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.avx.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "2-Pin Surface Mount Device, Body 1.6 x 0.81 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "603"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPC1608X90X35ML15T15)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://datasheet.octopart.com/06035A101JAT2A-AVX-datasheet-9883399.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Nov-10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "AVX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.avx.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "2-Pin Surface Mount Device, Body 1.6 x 0.81 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "603"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPC1608X90X35ML15T15)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://datasheet.octopart.com/06035A101JAT2A-AVX-datasheet-9883399.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Nov-10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "AVX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.avx.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "2-Pin Surface Mount Device, Body 1.6 x 0.81 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "603"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPC1608X90X35ML15T15)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://datasheet.octopart.com/06035A101JAT2A-AVX-datasheet-9883399.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Nov-10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "AVX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.avx.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "2-Pin Surface Mount Device, Body 1.6 x 0.81 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "603"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPC1608X90X35ML15T15)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://datasheet.octopart.com/06035A101JAT2A-AVX-datasheet-9883399.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Nov-10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "AVX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.avx.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "2-Pin Surface Mount Device, Body 1.6 x 0.81 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "603"; VariantName = "[No Variations]"
+Added Component: Designator=C?(*CAPC1608X90)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Digi-Key_Part_Number"; Value = "311-1085-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Purchase_URL"; Value = "https://www.digikey.com/product-detail/en/yageo/CC0603KRX7R9BB103/311-1085-1-ND/302995?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "CC0603KRX7R9BB103"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603 Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/CC0603KRX7R9BB103/Yageo/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "311-1085-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPC1608X90X35ML15T15)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://datasheet.octopart.com/06035A101JAT2A-AVX-datasheet-9883399.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Nov-10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "AVX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.avx.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "2-Pin Surface Mount Device, Body 1.6 x 0.81 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "603"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPC1608X90X35ML15T15)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://datasheet.octopart.com/06035A101JAT2A-AVX-datasheet-9883399.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Nov-10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "AVX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.avx.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "2-Pin Surface Mount Device, Body 1.6 x 0.81 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "603"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPC1608X90X35ML15T15)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://datasheet.octopart.com/06035A101JAT2A-AVX-datasheet-9883399.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Nov-10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "AVX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.avx.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "2-Pin Surface Mount Device, Body 1.6 x 0.81 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "603"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPC1608X90X35ML15T15)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://datasheet.octopart.com/06035A101JAT2A-AVX-datasheet-9883399.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Nov-10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "AVX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.avx.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "2-Pin Surface Mount Device, Body 1.6 x 0.81 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "603"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPC1608X90X35ML15T15)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://datasheet.octopart.com/06035A101JAT2A-AVX-datasheet-9883399.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Nov-10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "AVX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.avx.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "2-Pin Surface Mount Device, Body 1.6 x 0.81 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "603"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPC1608X90X35ML15T15)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://datasheet.octopart.com/06035A101JAT2A-AVX-datasheet-9883399.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Nov-10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "AVX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.avx.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "2-Pin Surface Mount Device, Body 1.6 x 0.81 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "603"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPC1608X90X35ML15T15)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://datasheet.octopart.com/06035A101JAT2A-AVX-datasheet-9883399.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Nov-10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "AVX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.avx.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "2-Pin Surface Mount Device, Body 1.6 x 0.81 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "603"; VariantName = "[No Variations]"
+Added Component: Designator=C?(*CAPC1608X90)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Digi-Key_Part_Number"; Value = "311-1085-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Purchase_URL"; Value = "https://www.digikey.com/product-detail/en/yageo/CC0603KRX7R9BB103/311-1085-1-ND/302995?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "CC0603KRX7R9BB103"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603 Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/CC0603KRX7R9BB103/Yageo/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "311-1085-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAPC1608X90X35ML15T15)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://datasheet.octopart.com/06035A101JAT2A-AVX-datasheet-9883399.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "Nov-10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "AVX"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.avx.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "2-Pin Surface Mount Device, Body 1.6 x 0.81 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "603"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESC1608X55X30LL20T20)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERA3AEB101V"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESC1608X55X30NL15T15)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERJ-3GEY0R00V"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESC1608X55X30LL20T20)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERA3AEB101V"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESC1608X55X30LL20T20)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERA3AEB101V"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESC1608X55X30LL20T20)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERA3AEB101V"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESC1608X55X30LL20T20)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERA3AEB101V"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESC1608X55X30LL20T20)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERA3AEB101V"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESC1608X55X30LL20T20)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERA3AEB101V"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESC1608X55X30LL20T20)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERA3AEB101V"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESC1608X55X30NL15T15)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERJ-3GEY0R00V"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESC1608X55X30LL20T20)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERA3AEB101V"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESC1608X55X30LL20T20)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERA3AEB101V"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESC1608X55X30LL20T20)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERA3AEB101V"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESC1608X55X30LL20T20)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERA3AEB101V"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESC1608X55X30LL20T20)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERA3AEB101V"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESC1608X55X30LL20T20)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERA3AEB101V"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESC1608X55X30LL20T20)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERA3AEB101V"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESC1608X55X30NL15T15)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERJ-3GEY0R00V"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESC1608X55X30LL20T20)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERA3AEB101V"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESC1608X55X30LL20T20)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERA3AEB101V"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESC1608X55X30LL20T20)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERA3AEB101V"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESC1608X55X30LL20T20)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERA3AEB101V"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESC1608X55X30LL20T20)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERA3AEB101V"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESC1608X55X30LL20T20)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERA3AEB101V"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESC1608X55X30LL20T20)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERA3AEB101V"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESC1608X55X30NL15T15)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERJ-3GEY0R00V"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESC1608X55X30LL20T20)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERA3AEB101V"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESC1608X55X30LL20T20)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERA3AEB101V"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESC1608X55X30LL20T20)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERA3AEB101V"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESC1608X55X30LL20T20)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERA3AEB101V"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESC1608X55X30LL20T20)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERA3AEB101V"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESC1608X55X30LL20T20)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERA3AEB101V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=A1-4
+Added Pin To Net: NetName=GND Pin=A1-6
+Added Pin To Net: NetName=GND Pin=A1-7
+Added Pin To Net: NetName=GND Pin=A1-8
+Added Pin To Net: NetName=GND Pin=A1-9
+Added Pin To Net: NetName=GND Pin=A1-10
+Added Pin To Net: NetName=GND Pin=A1-11
+Added Pin To Net: NetName=GND Pin=A1-12
+Added Pin To Net: NetName=GND Pin=A1-13
+Added Pin To Net: NetName=GND Pin=A1-15
+Added Pin To Net: NetName=GND Pin=A?-4
+Added Pin To Net: NetName=GND Pin=A?-4
+Added Pin To Net: NetName=GND Pin=A?-4
+Added Pin To Net: NetName=GND Pin=A?-6
+Added Pin To Net: NetName=GND Pin=A?-6
+Added Pin To Net: NetName=GND Pin=A?-6
+Added Pin To Net: NetName=GND Pin=A?-7
+Added Pin To Net: NetName=GND Pin=A?-7
+Added Pin To Net: NetName=GND Pin=A?-7
+Added Pin To Net: NetName=GND Pin=A?-8
+Added Pin To Net: NetName=GND Pin=A?-8
+Added Pin To Net: NetName=GND Pin=A?-8
+Added Pin To Net: NetName=GND Pin=A?-9
+Added Pin To Net: NetName=GND Pin=A?-9
+Added Pin To Net: NetName=GND Pin=A?-9
+Added Pin To Net: NetName=GND Pin=A?-10
+Added Pin To Net: NetName=GND Pin=A?-10
+Added Pin To Net: NetName=GND Pin=A?-10
+Added Pin To Net: NetName=GND Pin=A?-11
+Added Pin To Net: NetName=GND Pin=A?-11
+Added Pin To Net: NetName=GND Pin=A?-11
+Added Pin To Net: NetName=GND Pin=A?-12
+Added Pin To Net: NetName=GND Pin=A?-12
+Added Pin To Net: NetName=GND Pin=A?-12
+Added Pin To Net: NetName=GND Pin=A?-13
+Added Pin To Net: NetName=GND Pin=A?-13
+Added Pin To Net: NetName=GND Pin=A?-13
+Added Pin To Net: NetName=GND Pin=A?-15
+Added Pin To Net: NetName=GND Pin=A?-15
+Added Pin To Net: NetName=GND Pin=A?-15
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=D0 Pin=A1-1
+Added Pin To Net: NetName=D0 Pin=A?-1
+Added Pin To Net: NetName=D0 Pin=A?-1
+Added Pin To Net: NetName=D0 Pin=A?-1
+Added Pin To Net: NetName=D0 Pin=C?-2
+Added Pin To Net: NetName=D0 Pin=C?-2
+Added Pin To Net: NetName=D0 Pin=C?-2
+Added Pin To Net: NetName=D0 Pin=C?-2
+Added Net: Name=D0
+Added Pin To Net: NetName=D1 Pin=A1-24
+Added Pin To Net: NetName=D1 Pin=A?-24
+Added Pin To Net: NetName=D1 Pin=A?-24
+Added Pin To Net: NetName=D1 Pin=A?-24
+Added Pin To Net: NetName=D1 Pin=C?-2
+Added Pin To Net: NetName=D1 Pin=C?-2
+Added Pin To Net: NetName=D1 Pin=C?-2
+Added Pin To Net: NetName=D1 Pin=C?-2
+Added Net: Name=D1
+Added Pin To Net: NetName=D2 Pin=A1-23
+Added Pin To Net: NetName=D2 Pin=A?-23
+Added Pin To Net: NetName=D2 Pin=A?-23
+Added Pin To Net: NetName=D2 Pin=A?-23
+Added Pin To Net: NetName=D2 Pin=C?-2
+Added Pin To Net: NetName=D2 Pin=C?-2
+Added Pin To Net: NetName=D2 Pin=C?-2
+Added Pin To Net: NetName=D2 Pin=C?-2
+Added Net: Name=D2
+Added Pin To Net: NetName=D3 Pin=A1-22
+Added Pin To Net: NetName=D3 Pin=A?-22
+Added Pin To Net: NetName=D3 Pin=A?-22
+Added Pin To Net: NetName=D3 Pin=A?-22
+Added Pin To Net: NetName=D3 Pin=C?-2
+Added Pin To Net: NetName=D3 Pin=C?-2
+Added Pin To Net: NetName=D3 Pin=C?-2
+Added Pin To Net: NetName=D3 Pin=C?-2
+Added Net: Name=D3
+Added Pin To Net: NetName=D4 Pin=A1-21
+Added Pin To Net: NetName=D4 Pin=A?-21
+Added Pin To Net: NetName=D4 Pin=A?-21
+Added Pin To Net: NetName=D4 Pin=A?-21
+Added Pin To Net: NetName=D4 Pin=C?-2
+Added Pin To Net: NetName=D4 Pin=C?-2
+Added Pin To Net: NetName=D4 Pin=C?-2
+Added Pin To Net: NetName=D4 Pin=C?-2
+Added Net: Name=D4
+Added Pin To Net: NetName=D5 Pin=A1-20
+Added Pin To Net: NetName=D5 Pin=A?-20
+Added Pin To Net: NetName=D5 Pin=A?-20
+Added Pin To Net: NetName=D5 Pin=A?-20
+Added Pin To Net: NetName=D5 Pin=C?-2
+Added Pin To Net: NetName=D5 Pin=C?-2
+Added Pin To Net: NetName=D5 Pin=C?-2
+Added Pin To Net: NetName=D5 Pin=C?-2
+Added Net: Name=D5
+Added Pin To Net: NetName=D6 Pin=A1-19
+Added Pin To Net: NetName=D6 Pin=A?-19
+Added Pin To Net: NetName=D6 Pin=A?-19
+Added Pin To Net: NetName=D6 Pin=A?-19
+Added Pin To Net: NetName=D6 Pin=C?-2
+Added Pin To Net: NetName=D6 Pin=C?-2
+Added Pin To Net: NetName=D6 Pin=C?-2
+Added Pin To Net: NetName=D6 Pin=C?-2
+Added Net: Name=D6
+Added Pin To Net: NetName=LE1 Pin=A1-16
+Added Pin To Net: NetName=LE1 Pin=A?-16
+Added Pin To Net: NetName=LE1 Pin=A?-16
+Added Pin To Net: NetName=LE1 Pin=A?-16
+Added Net: Name=LE1
+Added Pin To Net: NetName=NetA1_2 Pin=A1-2
+Added Pin To Net: NetName=NetA1_2 Pin=C?-1
+Added Pin To Net: NetName=NetA1_2 Pin=R?-2
+Added Net: Name=NetA1_2
+Added Pin To Net: NetName=NetA?_2 Pin=A?-2
+Added Pin To Net: NetName=NetA?_2 Pin=C?-1
+Added Pin To Net: NetName=NetA?_2 Pin=R?-2
+Added Net: Name=NetA?_2
+Added Pin To Net: NetName=NetC?_1 Pin=C?-1
+Added Pin To Net: NetName=NetC?_1 Pin=R?-1
+Added Net: Name=NetC?_1
+Added Pin To Net: NetName=VDD Pin=R?-1
+Added Pin To Net: NetName=VDD Pin=R?-1
+Added Pin To Net: NetName=VDD Pin=R?-1
+Added Pin To Net: NetName=VDD Pin=R?-1
+Added Net: Name=VDD
+Added Member To Class: ClassName=v1_1_1 Member=Component ? JH-121-PIN
+Added Member To Class: ClassName=v1_1_1 Member=Component A1 IDT-F1958
+Added Member To Class: ClassName=v1_1_1 Member=Component A? IDT-F1958
+Added Member To Class: ClassName=v1_1_1 Member=Component A? IDT-F1958
+Added Member To Class: ClassName=v1_1_1 Member=Component A? IDT-F1958
+Added Member To Class: ClassName=v1_1_1 Member=Component C? 100pF
+Added Member To Class: ClassName=v1_1_1 Member=Component C? 100pF
+Added Member To Class: ClassName=v1_1_1 Member=Component C? 100pF
+Added Member To Class: ClassName=v1_1_1 Member=Component C? 100pF
+Added Member To Class: ClassName=v1_1_1 Member=Component C? 100pF
+Added Member To Class: ClassName=v1_1_1 Member=Component C? 100pF
+Added Member To Class: ClassName=v1_1_1 Member=Component C? 10nF
+Added Member To Class: ClassName=v1_1_1 Member=Component C? 100pF
+Added Member To Class: ClassName=v1_1_1 Member=Component C? 100pF
+Added Member To Class: ClassName=v1_1_1 Member=Component C? 100pF
+Added Member To Class: ClassName=v1_1_1 Member=Component C? 100pF
+Added Member To Class: ClassName=v1_1_1 Member=Component C? 100pF
+Added Member To Class: ClassName=v1_1_1 Member=Component C? 100pF
+Added Member To Class: ClassName=v1_1_1 Member=Component C? 100pF
+Added Member To Class: ClassName=v1_1_1 Member=Component C? 10nF
+Added Member To Class: ClassName=v1_1_1 Member=Component C? 100pF
+Added Member To Class: ClassName=v1_1_1 Member=Component C? 100pF
+Added Member To Class: ClassName=v1_1_1 Member=Component C? 100pF
+Added Member To Class: ClassName=v1_1_1 Member=Component C? 100pF
+Added Member To Class: ClassName=v1_1_1 Member=Component C? 100pF
+Added Member To Class: ClassName=v1_1_1 Member=Component C? 100pF
+Added Member To Class: ClassName=v1_1_1 Member=Component C? 100pF
+Added Member To Class: ClassName=v1_1_1 Member=Component C? 10nF
+Added Member To Class: ClassName=v1_1_1 Member=Component C? 100pF
+Added Member To Class: ClassName=v1_1_1 Member=Component C? 100pF
+Added Member To Class: ClassName=v1_1_1 Member=Component C? 100pF
+Added Member To Class: ClassName=v1_1_1 Member=Component C? 100pF
+Added Member To Class: ClassName=v1_1_1 Member=Component C? 100pF
+Added Member To Class: ClassName=v1_1_1 Member=Component C? 100pF
+Added Member To Class: ClassName=v1_1_1 Member=Component C? 100pF
+Added Member To Class: ClassName=v1_1_1 Member=Component C? 10nF
+Added Member To Class: ClassName=v1_1_1 Member=Component C? 100pF
+Added Member To Class: ClassName=v1_1_1 Member=Component J? SMA 50 Ohm edge
+Added Member To Class: ClassName=v1_1_1 Member=Component J? SMA 50 Ohm edge
+Added Member To Class: ClassName=v1_1_1 Member=Component J? SMA 50 Ohm edge
+Added Member To Class: ClassName=v1_1_1 Member=Component R? 100
+Added Member To Class: ClassName=v1_1_1 Member=Component R? 100
+Added Member To Class: ClassName=v1_1_1 Member=Component R? 100
+Added Member To Class: ClassName=v1_1_1 Member=Component R? 100
+Added Member To Class: ClassName=v1_1_1 Member=Component R? 100
+Added Member To Class: ClassName=v1_1_1 Member=Component R? 100
+Added Member To Class: ClassName=v1_1_1 Member=Component R? 100
+Added Member To Class: ClassName=v1_1_1 Member=Component R? 100
+Added Member To Class: ClassName=v1_1_1 Member=Component R? 100
+Added Member To Class: ClassName=v1_1_1 Member=Component R? 100
+Added Member To Class: ClassName=v1_1_1 Member=Component R? 100
+Added Member To Class: ClassName=v1_1_1 Member=Component R? 100
+Added Member To Class: ClassName=v1_1_1 Member=Component R? 100
+Added Member To Class: ClassName=v1_1_1 Member=Component R? 100
+Added Member To Class: ClassName=v1_1_1 Member=Component R? 100
+Added Member To Class: ClassName=v1_1_1 Member=Component R? 100
+Added Member To Class: ClassName=v1_1_1 Member=Component R? 100
+Added Member To Class: ClassName=v1_1_1 Member=Component R? 100
+Added Member To Class: ClassName=v1_1_1 Member=Component R? 100
+Added Member To Class: ClassName=v1_1_1 Member=Component R? 100
+Added Member To Class: ClassName=v1_1_1 Member=Component R? 100
+Added Member To Class: ClassName=v1_1_1 Member=Component R? 100
+Added Member To Class: ClassName=v1_1_1 Member=Component R? 100
+Added Member To Class: ClassName=v1_1_1 Member=Component R? 100
+Added Member To Class: ClassName=v1_1_1 Member=Component R? 100
+Added Member To Class: ClassName=v1_1_1 Member=Component R? 100
+Added Member To Class: ClassName=v1_1_1 Member=Component R? 100
+Added Member To Class: ClassName=v1_1_1 Member=Component R? 100
+Added Member To Class: ClassName=v1_1_1 Member=Component R? 100
+Added Member To Class: ClassName=v1_1_1 Member=Component R? 100
+Added Member To Class: ClassName=v1_1_1 Member=Component R? 100
+Added Member To Class: ClassName=v1_1_1 Member=Component R? 100

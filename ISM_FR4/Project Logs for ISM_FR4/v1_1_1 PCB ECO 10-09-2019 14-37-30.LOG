@@ -1,0 +1,43 @@
+Removed Pin From Net: NetName=S4_0_1 Pin=A1-5
+Removed Pin From Net: NetName=C1_0_1 Pin=A1-14
+Removed Pin From Net: NetName=S4_0_2 Pin=A2-5
+Removed Pin From Net: NetName=C1_0_2 Pin=A2-14
+Removed Pin From Net: NetName=S5_0_1 Pin=A3-5
+Removed Pin From Net: NetName=C2_0_1 Pin=A3-14
+Removed Pin From Net: NetName=S5_0_2 Pin=A4-5
+Removed Pin From Net: NetName=C2_0_2 Pin=A4-14
+Removed Pin From Net: NetName=S6_90_1 Pin=A5-5
+Removed Pin From Net: NetName=C3_90_1 Pin=A5-14
+Removed Pin From Net: NetName=S6_90_2 Pin=A6-5
+Removed Pin From Net: NetName=C3_90_2 Pin=A6-14
+Removed Pin From Net: NetName=S7_90_1 Pin=A7-5
+Removed Pin From Net: NetName=C4_90_1 Pin=A7-14
+Removed Pin From Net: NetName=S7_90_2 Pin=A8-5
+Removed Pin From Net: NetName=C4_90_2 Pin=A8-14
+Change component parameters: Designator = "U1"; Footprint = "*3M_N2520-6V0C-RB-WE"; UniqueID = "\IFMUVPIW"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Digi-Key_Part_Number"; Value = "MSH20KCT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Digi-Key_Purchase_URL"; Value = "https://www.digikey.com/product-detail/en/3m/N2520-6V0C-RB-WE/MSH20KCT-ND/1125449?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "3M"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "N2520-6V0C-RB-WE"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/N2520-6V0C-RB-WE/3M%20%28TC%29/view-part/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "MSH20KCT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=C1_0_1 Pin=A1-5
+Added Pin To Net: NetName=S4_0_1 Pin=A1-14
+Added Pin To Net: NetName=C1_0_2 Pin=A2-5
+Added Pin To Net: NetName=S4_0_2 Pin=A2-14
+Added Pin To Net: NetName=C2_0_1 Pin=A3-5
+Added Pin To Net: NetName=S5_0_1 Pin=A3-14
+Added Pin To Net: NetName=C2_0_2 Pin=A4-5
+Added Pin To Net: NetName=S5_0_2 Pin=A4-14
+Added Pin To Net: NetName=C3_90_1 Pin=A5-5
+Added Pin To Net: NetName=S6_90_1 Pin=A5-14
+Added Pin To Net: NetName=C3_90_2 Pin=A6-5
+Added Pin To Net: NetName=S6_90_2 Pin=A6-14
+Added Pin To Net: NetName=C4_90_1 Pin=A7-5
+Added Pin To Net: NetName=S7_90_1 Pin=A7-14
+Added Pin To Net: NetName=C4_90_2 Pin=A8-5
+Added Pin To Net: NetName=S7_90_2 Pin=A8-14

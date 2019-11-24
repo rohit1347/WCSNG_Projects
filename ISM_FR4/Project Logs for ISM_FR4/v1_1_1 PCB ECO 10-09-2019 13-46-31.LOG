@@ -1,0 +1,47 @@
+Change component parameters: Designator = "CS7"; Footprint = "FP-2"; UniqueID = "\IYGBFTCK"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceSetName"; Value = "JH-121-PIN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LibraryName"; Value = "wcsn_parts"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "FP-2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Richardson RFPD"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "JH-121-PIN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolName_1"; Value = "JH-121-PIN"; VariantName = "[No Variations]"
+Change component parameters: Designator = "T1"; Footprint = "C20A50Z4"; UniqueID = "\ACVHJLBG"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceSetName"; Value = "C20A50Z4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LibraryName"; Value = "wcsn_parts"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "C20A50Z4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Richardson RFPD"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "C20A50Z4"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolName_1"; Value = "RF-TERMINATION"; VariantName = "[No Variations]"
+Added Component: Designator=U1(*3M_N2520-6V0C-RB-WE)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Digi-Key_Part_Number"; Value = "MSH20KCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Purchase_URL"; Value = "https://www.digikey.com/product-detail/en/3m/N2520-6V0C-RB-WE/MSH20KCT-ND/1125449?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "3M"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "N2520-6V0C-RB-WE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/N2520-6V0C-RB-WE/3M%20%28TC%29/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VDD Pin=U1-1
+Added Pin To Net: NetName=GND Pin=U1-2
+Added Pin To Net: NetName=LE1 Pin=U1-3
+Added Pin To Net: NetName=LE2 Pin=U1-4
+Added Pin To Net: NetName=LE3 Pin=U1-5
+Added Pin To Net: NetName=LE4 Pin=U1-6
+Added Pin To Net: NetName=LE5 Pin=U1-7
+Added Pin To Net: NetName=LE6 Pin=U1-8
+Added Pin To Net: NetName=LE7 Pin=U1-9
+Added Pin To Net: NetName=LE8 Pin=U1-10
+Added Pin To Net: NetName=D0 Pin=U1-11
+Added Pin To Net: NetName=D1 Pin=U1-12
+Added Pin To Net: NetName=D2 Pin=U1-13
+Added Pin To Net: NetName=D3 Pin=U1-14
+Added Pin To Net: NetName=D4 Pin=U1-15
+Added Pin To Net: NetName=D5 Pin=U1-16
+Added Pin To Net: NetName=D6 Pin=U1-17
+Added Member To Class: ClassName=v1_1_1 Member=Component U1 N2520-6V0C-RB-WE

@@ -72,23 +72,6 @@ GenerateClassCluster=0
 DocumentUniqueId=GIGOJBIJ
 
 [Document3]
-DocumentPath=RF_switch_ckt.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=UBSDQOCH
-
-[Document4]
 DocumentPath=408HR_pcbminions.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -105,7 +88,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FOMCDECY
 
-[Document5]
+[Document4]
 DocumentPath=6GIsola_outjob.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -121,6 +104,14 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
+
+[ProjectVariant1]
+UniqueID=CB14231B-43EC-47EE-8408-E406CD235023
+Description=6G_408HR_test1
+AllowFabrication=0
+ParameterCount=0
+VariationCount=0
+ParamVariationCount=0
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for 6G_ISOLA\6G_ISOLA.DRR
