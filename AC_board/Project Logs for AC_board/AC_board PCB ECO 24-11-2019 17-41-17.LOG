@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=HMCIN_U_VectorModulator1 Pin=U4_U_VectorModulator1-2
+Removed Pin From Net: NetName=HMCINbar_U_VectorModulator1 Pin=U4_U_VectorModulator1-3
+Removed Pin From Net: NetName=HMCIN_U_VectorModulator2 Pin=U4_U_VectorModulator2-2
+Removed Pin From Net: NetName=HMCINbar_U_VectorModulator2 Pin=U4_U_VectorModulator2-3
+Added Pin To Net: NetName=HMCINbar_U_VectorModulator1 Pin=U4_U_VectorModulator1-2
+Added Pin To Net: NetName=HMCIN_U_VectorModulator1 Pin=U4_U_VectorModulator1-3
+Added Pin To Net: NetName=HMCINbar_U_VectorModulator2 Pin=U4_U_VectorModulator2-2
+Added Pin To Net: NetName=HMCIN_U_VectorModulator2 Pin=U4_U_VectorModulator2-3
+Added Room: Name=U_VectorModulator2
