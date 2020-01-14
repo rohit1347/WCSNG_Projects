@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\SweepSense_v2\SweepSense_v2_R4450F\PCB2.PcbDoc
-Date     : 13-01-2020
-Time     : 22:22:09
+PCB File : C:\Users\yeswa\OneDrive\Documents\git_projects\WCSNG_Projects\SweepSense_v2\SweepSense_v2_R4450F\PCB2.PcbDoc
+Date     : 1/14/2020
+Time     : 3:36:49 PM
 
 Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
 Rule Violations :0
@@ -78,4 +78,4 @@ Rule Violations :0
 
 Violations Detected : 21
 Waived Violations : 0
-Time Elapsed        : 00:00:02
+Time Elapsed        : 00:00:01
