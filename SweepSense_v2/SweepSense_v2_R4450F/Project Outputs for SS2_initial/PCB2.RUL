@@ -1,4 +1,4 @@
-DRC Rules Export File for PCB: C:\Users\Public\Documents\Altium\WCSNG_Projects\SweepSense_v2\SweepSense_v2_R4450F\PCB2.PcbDoc
+DRC Rules Export File for PCB: C:\Users\dinesh-wcsnglab-10\OneDrive - UC San Diego\WCSN Lab\PCB_Main\Projects\WCSNG_Projects\SweepSense_v2\SweepSense_v2_R4450F\PCB2.PcbDoc
 RuleKind=Width|RuleName=Schematic Width Constraint_3|Scope=Board|Minimum=10.00
 RuleKind=Width|RuleName=Schematic Width Constraint_1|Scope=Board|Minimum=10.00
 RuleKind=Width|RuleName=Schematic Width Constraint|Scope=Board|Minimum=10.00
