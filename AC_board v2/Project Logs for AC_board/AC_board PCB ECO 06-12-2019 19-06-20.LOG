@@ -1,0 +1,4 @@
+Change Net Name : Old Net Name=NetC3_U_VectorModulator1_2 New Net Name=VCC-IN1_U_VectorModulator1
+Change Net Name : Old Net Name=NetC3_U_VectorModulator2_2 New Net Name=VCC-IN1_U_VectorModulator2
+Change Net Name : Old Net Name=NetC4_U_VectorModulator1_2 New Net Name=CoCap_U_VectorModulator1
+Change Net Name : Old Net Name=NetC4_U_VectorModulator2_2 New Net Name=CoCap_U_VectorModulator2

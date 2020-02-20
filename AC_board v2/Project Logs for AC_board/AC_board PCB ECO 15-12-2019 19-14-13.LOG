@@ -1,0 +1,74 @@
+Removed Member From Class: ClassName=RF Nets Member=NetC1_U_VectorModulator1_1
+Removed Member From Class: ClassName=RF Nets Member=NetC1_U_VectorModulator2_1
+Change component parameters: Designator = "U1" ("U1"); Footprint = "*ANAREN_PD0409J7575S2HF"; UniqueID = "\OXQMEIAU" ("\OXQMEIAU")
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "1173-1093-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "U*"; Value = "1173-1093-1-ND"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U2" ("U2"); Footprint = "*ANAREN_PD0409J7575S2HF"; UniqueID = "\CACPADBQ" ("\CACPADBQ")
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "1173-1093-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "U*"; Value = "1173-1093-1-ND"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U3" ("U3"); Footprint = "*ANAREN_PD0409J7575S2HF"; UniqueID = "\RYLYOKLC" ("\RYLYOKLC")
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "1173-1093-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "U*"; Value = "1173-1093-1-ND"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U5" ("U5"); Footprint = "*ANAREN_PD0409J7575S2HF"; UniqueID = "\RAREAUZT" ("\RAREAUZT")
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "1173-1093-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "U*"; Value = "1173-1093-1-ND"; VariantName = "[No Variations]"
+Change component parameters: Designator = "L2" ("L2"); Footprint = "0402-A"; UniqueID = "\XPWEEROX" ("\XPWEEROX")
+Change component parameters (AddParameter): Name = "Code_IEC"; Value = "1005"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Code_JEITA"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "29-May-2009"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Chip Inductor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "0402-A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10mH"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U6_U_VectorModulator1" ("U6"); Footprint = "*ANAREN_PD0409J7575S2HF"; UniqueID = "\MDDGYAKI\BKUCRTUO" ("\MDDGYAKI\BKUCRTUO")
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "1173-1056-1-ND"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U6_U_VectorModulator2" ("U6"); Footprint = "*ANAREN_PD0409J7575S2HF"; UniqueID = "\GJQIHWHL\BKUCRTUO" ("\GJQIHWHL\BKUCRTUO")
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "1173-1056-1-ND"; VariantName = "[No Variations]"
+Added Component: Designator=J5(SMA-OSHPARK-4L-1.6MM- ALT3)
+Add component (AddParameter): Name = "DeviceName"; Value = "-OSHPARK-4L-1.6MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "SMA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "dword1511-connectors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SMA-OSHPARK-4L-1.6MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "J658-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "COAX"; VariantName = "[No Variations]"
+Added Component: Designator=J6(SMA-OSHPARK-4L-1.6MM- ALT3)
+Add component (AddParameter): Name = "DeviceName"; Value = "-OSHPARK-4L-1.6MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "SMA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "dword1511-connectors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SMA-OSHPARK-4L-1.6MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "J658-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "COAX"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=AGND Pin=J5-GND
+Added Pin To Net: NetName=AGND Pin=J5-GND
+Added Pin To Net: NetName=AGND Pin=J5-GND
+Added Pin To Net: NetName=AGND Pin=J5-GND
+Added Pin To Net: NetName=AGND Pin=J6-GND
+Added Pin To Net: NetName=AGND Pin=J6-GND
+Added Pin To Net: NetName=AGND Pin=J6-GND
+Added Pin To Net: NetName=AGND Pin=J6-GND
+Change Net Name : Old Net Name=NetC3_U_VectorModulator1_2 New Net Name=VCC-IN1_U_VectorModulator1
+Change Net Name : Old Net Name=NetC3_U_VectorModulator2_2 New Net Name=VCC-IN1_U_VectorModulator2
+Change Net Name : Old Net Name=NetC4_U_VectorModulator1_2 New Net Name=CoCap_U_VectorModulator1
+Change Net Name : Old Net Name=NetC4_U_VectorModulator2_2 New Net Name=CoCap_U_VectorModulator2
+Added Pin To Net: NetName=NetJ5_SIG Pin=J5-SIG
+Added Pin To Net: NetName=NetJ5_SIG Pin=J6-SIG
+Added Net: Name=NetJ5_SIG
+Added Member To Class: ClassName=AC_board Member=Component J5 SMA 50 Ohm edge
+Added Member To Class: ClassName=AC_board Member=Component J6 SMA 50 Ohm edge
+Added Member To Class: ClassName=RF Nets Member=Wire NetJ5_SIG
+Added Rule: Name=Schematic Clearance Constraint
+Added Rule: Name=Schematic Clearance Constraint_1
+Added Rule: Name=Schematic Width Constraint
+Added Rule: Name=Schematic Width Constraint_1
