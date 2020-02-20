@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=RF-C1-1 Pin=U3-4
+Added Pin To Net: NetName=RF-C1 Pin=U5-6
+Added Pin To Net: NetName=RF-C2-2 Pin=U3-6
+Added Net: Name=RF-C2-2
