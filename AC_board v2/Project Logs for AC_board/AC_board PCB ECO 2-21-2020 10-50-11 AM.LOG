@@ -1,0 +1,93 @@
+Added Component: Designator=J7(SMA-OSHPARK-4L-1.6MM- ALT3)
+Add component (AddParameter): Name = "DeviceName"; Value = "-OSHPARK-4L-1.6MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "SMA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "dword1511-connectors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SMA-OSHPARK-4L-1.6MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "J658-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "COAX"; VariantName = "[No Variations]"
+Added Component: Designator=J8(SMA-OSHPARK-4L-1.6MM- ALT3)
+Add component (AddParameter): Name = "DeviceName"; Value = "-OSHPARK-4L-1.6MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "SMA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "dword1511-connectors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SMA-OSHPARK-4L-1.6MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "J658-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "COAX"; VariantName = "[No Variations]"
+Added Component: Designator=J9(SMA-OSHPARK-4L-1.6MM- ALT3)
+Add component (AddParameter): Name = "DeviceName"; Value = "-OSHPARK-4L-1.6MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "SMA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "dword1511-connectors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SMA-OSHPARK-4L-1.6MM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "J658-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "COAX"; VariantName = "[No Variations]"
+Added Component: Designator=R5(RESC1005X40X25ML05T05)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay Dale"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CRCW04020000Z0ED"; VariantName = "[No Variations]"
+Added Component: Designator=R6(RESC1005X40X25ML05T05)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay Dale"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CRCW04020000Z0ED"; VariantName = "[No Variations]"
+Added Component: Designator=R7(RESC1005X40X25ML05T05)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay Dale"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CRCW04020000Z0ED"; VariantName = "[No Variations]"
+Added Component: Designator=R9(RESC1005X40X25ML05T05)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay Dale"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CRCW04020000Z0ED"; VariantName = "[No Variations]"
+Added Component: Designator=R10(RESC1005X40X25ML05T05)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay Dale"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CRCW04020000Z0ED"; VariantName = "[No Variations]"
+Added Component: Designator=R?(RESC1005X40X25ML05T05)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay Dale"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "CRCW04020000Z0ED"; VariantName = "[No Variations]"
+Added Component: Designator=S?(DIP-4)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "DIP-4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "24-Mar-1999"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=AGND Pin=J7-GND
+Added Pin To Net: NetName=AGND Pin=J7-GND
+Added Pin To Net: NetName=AGND Pin=J7-GND
+Added Pin To Net: NetName=AGND Pin=J7-GND
+Added Pin To Net: NetName=NetJ7_SIG Pin=J7-SIG
+Added Pin To Net: NetName=AGND Pin=J8-GND
+Added Pin To Net: NetName=AGND Pin=J8-GND
+Added Pin To Net: NetName=AGND Pin=J8-GND
+Added Pin To Net: NetName=AGND Pin=J8-GND
+Added Pin To Net: NetName=NetJ8_SIG Pin=J8-SIG
+Added Pin To Net: NetName=AGND Pin=J9-GND
+Added Pin To Net: NetName=AGND Pin=J9-GND
+Added Pin To Net: NetName=AGND Pin=J9-GND
+Added Pin To Net: NetName=AGND Pin=J9-GND
+Added Pin To Net: NetName=NetJ?_SIG Pin=J9-SIG
+Added Pin To Net: NetName=NetC1_U_VectorModulator2_2 Pin=R5-1
+Added Pin To Net: NetName=RF-C1-1 Pin=R5-2
+Added Pin To Net: NetName=NetC1_U_VectorModulator2_2 Pin=R6-1
+Added Pin To Net: NetName=NetJ7_SIG Pin=R6-2
+Added Pin To Net: NetName=NetC1_U_VectorModulator1_2 Pin=R7-1
+Added Pin To Net: NetName=RF-C1-2 Pin=R7-2
+Added Pin To Net: NetName=NetR9_1 Pin=R9-1
+Added Pin To Net: NetName=RF-C1 Pin=R9-2
+Added Pin To Net: NetName=NetR9_1 Pin=R10-1
+Added Pin To Net: NetName=NetJ?_SIG Pin=R10-2
+Added Pin To Net: NetName=NetC1_U_VectorModulator1_2 Pin=R?-1
+Added Pin To Net: NetName=NetJ8_SIG Pin=R?-2
+Added Pin To Net: NetName=8V1 Pin=S?-1
+Added Pin To Net: NetName=8V2 Pin=S?-2
+Added Pin To Net: NetName=8V Pin=S?-3
+Added Pin To Net: NetName=8V Pin=S?-4
+Change Net Name : Old Net Name=NetJ?_SIG New Net Name=NetJ9_SIG
+Added Member To Class: ClassName=AC_board Member=Component J7 SMA 50 Ohm edge
+Added Member To Class: ClassName=AC_board Member=Component J8 SMA 50 Ohm edge
+Added Member To Class: ClassName=AC_board Member=Component J9 SMA 50 Ohm edge
+Added Member To Class: ClassName=AC_board Member=Component R5 CRCW04020000Z0ED
+Added Member To Class: ClassName=AC_board Member=Component R6 CRCW04020000Z0ED
+Added Member To Class: ClassName=AC_board Member=Component R7 CRCW04020000Z0ED
+Added Member To Class: ClassName=AC_board Member=Component R9 CRCW04020000Z0ED
+Added Member To Class: ClassName=AC_board Member=Component R10 CRCW04020000Z0ED
+Added Member To Class: ClassName=AC_board Member=Component R? CRCW04020000Z0ED
+Added Member To Class: ClassName=AC_board Member=Component S? SW DIP-2

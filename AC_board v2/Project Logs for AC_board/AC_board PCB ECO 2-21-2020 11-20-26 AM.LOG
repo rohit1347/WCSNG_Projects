@@ -1,0 +1,47 @@
+Change Component DesignItemId : Designator=J7 Old DesignItemId= New DesignItemId=CONSMA001-SMD-G
+Change Component DesignItemId : Designator=J8 Old DesignItemId= New DesignItemId=CONSMA001-SMD-G
+Change Component DesignItemId : Designator=J9 Old DesignItemId= New DesignItemId=CONSMA001-SMD-G
+Change Component Footprint: Designator=J7 Old Footprint=SMA-OSHPARK-4L-1.6MM- ALT3 New Footprint=*LINX_CONSMA001-SMD-G_CONSMA001-SMD-G(Primary)
+Change Component Footprint: Designator=J8 Old Footprint=SMA-OSHPARK-4L-1.6MM- ALT3 New Footprint=*LINX_CONSMA001-SMD-G_CONSMA001-SMD-G(Primary)
+Change Component Footprint: Designator=J9 Old Footprint=SMA-OSHPARK-4L-1.6MM- ALT3 New Footprint=*LINX_CONSMA001-SMD-G_CONSMA001-SMD-G(Primary)
+Change Component Designator: OldDesignator=R? NewDesignator=R8
+Change Component Designator: OldDesignator=S? NewDesignator=S1
+Change component parameters: Designator = "J7" ("J7"); Footprint = "SMA-OSHPARK-4L-1.6MM- ALT3"; UniqueID = "\WTPZZDYK" ("\WTPZZDYK")
+Change component parameters (AddParameter): Name = "Digi-Key_Part_Number"; Value = "CONSMA001-SMD-G-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Digi-Key_Purchase_URL"; Value = "https://www.digikey.com/product-detail/en/linx-technologies-inc/CONSMA001-SMD-G/CONSMA001-SMD-G-ND/4496569?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Linx Technologies"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "CONSMA001-SMD-G"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/CONSMA001-SMD-G/Linx%20Technologies%20Inc./view-part/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "J8" ("J8"); Footprint = "SMA-OSHPARK-4L-1.6MM- ALT3"; UniqueID = "\IXMGVSXB" ("\IXMGVSXB")
+Change component parameters (AddParameter): Name = "Digi-Key_Part_Number"; Value = "CONSMA001-SMD-G-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Digi-Key_Purchase_URL"; Value = "https://www.digikey.com/product-detail/en/linx-technologies-inc/CONSMA001-SMD-G/CONSMA001-SMD-G-ND/4496569?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Linx Technologies"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "CONSMA001-SMD-G"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/CONSMA001-SMD-G/Linx%20Technologies%20Inc./view-part/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "J9" ("J9"); Footprint = "SMA-OSHPARK-4L-1.6MM- ALT3"; UniqueID = "\JLYLAXKR" ("\JLYLAXKR")
+Change component parameters (AddParameter): Name = "Digi-Key_Part_Number"; Value = "CONSMA001-SMD-G-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Digi-Key_Purchase_URL"; Value = "https://www.digikey.com/product-detail/en/linx-technologies-inc/CONSMA001-SMD-G/CONSMA001-SMD-G-ND/4496569?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Linx Technologies"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "CONSMA001-SMD-G"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/CONSMA001-SMD-G/Linx%20Technologies%20Inc./view-part/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetJ7_C Pin=J7-C
+Added Pin To Net: NetName=AGND Pin=J7-G1
+Added Pin To Net: NetName=AGND Pin=J7-G2
+Added Pin To Net: NetName=AGND Pin=J7-G3
+Added Pin To Net: NetName=AGND Pin=J7-G4
+Added Pin To Net: NetName=NetJ8_C Pin=J8-C
+Added Pin To Net: NetName=AGND Pin=J8-G1
+Added Pin To Net: NetName=AGND Pin=J8-G2
+Added Pin To Net: NetName=AGND Pin=J8-G3
+Added Pin To Net: NetName=AGND Pin=J8-G4
+Added Pin To Net: NetName=NetJ9_C Pin=J9-C
+Added Pin To Net: NetName=AGND Pin=J9-G1
+Added Pin To Net: NetName=AGND Pin=J9-G2
+Added Pin To Net: NetName=AGND Pin=J9-G3
+Added Pin To Net: NetName=AGND Pin=J9-G4
